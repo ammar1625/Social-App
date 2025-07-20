@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+.create-account-screen
+{
+    @apply h-screen w-[100%] bg-slate-100 flex justify-center items-center
+}
+
+/*this is for update infos screen*/
+.update-account-screen
+{
+    @apply h-[100%] w-[100%] bg-slate-200 flex justify-center items-center
+}
+
+.create-account-ctr
+{
+    @apply w-[32%] h-[90%] flex flex-col justify-around items-center
+}
+
+.create-account-form
+{
+    @apply w-[100%] h-[90%] bg-white flex flex-col justify-around items-center shadow-lg shadow-slate-500
+    rounded-lg pb-3 pt-2
+}
+
+.create-account-title-ctr
+{
+    @apply flex flex-col justify-around items-center h-[15%]
+}
+
+.title
+{
+    @apply text-3xl font-semibold
+}
+
+.header-sub-title
+{
+    @apply text-zinc-600
+}
+
+.name-ctr
+{
+    @apply flex justify-between items-center h-[13%] w-[90%] 
+}
+
+.name-input-field
+{
+    @apply h-[70%] border-1 w-[48%]
+}
+
+/*this is for update infos screen*/
+.update-username-input-field
+{
+    @apply w-[100%] 
+}
+
+.birthdate-ctr
+{
+    @apply flex flex-col justify-around items-start w-[90%] h-[16%] 
+} 
+
+.birthdate-input-field
+{
+    @apply  border-1 w-[100%] h-[50%]
+}
+
+.gender-field-ctr
+{
+    @apply flex justify-between items-center h-[14%] w-[70%] translate-x-[-14%]
+}
+
+.gender-ctr
+{
+    @apply  flex justify-between items-center w-[22%] 
+}
+
+.email-ctr
+{
+    @apply  h-[12%] w-[90%]
+}
+
+.phone-ctr
+{
+    @apply  h-[12%] w-[90%]
+}
+
+.password-ctr
+{
+    @apply  h-[12%] w-[90%] flex justify-between items-center
+}
+
+.password-phone-input-field
+{
+    @apply h-[70%] border-1 w-[48%]
+}
+
+.email-phone-input-field
+{
+    @apply w-[100%] h-[75%]
+}
+
+.create-account-btn
+{
+    @apply w-[27%] h-[9%] border-2 bg-emerald-600
+}

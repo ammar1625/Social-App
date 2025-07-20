@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+.home-page-ctr
+{
+    @apply h-screen w-[100%] bg-white border-2 /* flex flex-col justify-start items-center */
+    relative
+    
+}
+
+.overlay
+{
+    @apply absolute top-0 left-0 right-0 bottom-0 bg-slate-500 opacity-60 z-40 
+}
+
+.comments-model
+{
+    @apply absolute top-[5%] bottom-[5%] left-[35%] right-[35%] bg-gray-50 rounded-xl z-50 
+    shadow-sm shadow-gray-100 flex flex-col justify-start items-center
+    pt-[4%] pb-[6%]
+
+    overflow-y-scroll 
+}
+
+/*this part is for hiding the scroll bar*/
+.comments-model::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .comments-model {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+.comment-input-ctr
+{
+    @apply fixed bottom-[5%] left-[35%] right-[35%] h-[6%] w-[29.8%] flex justify-between items-center
+    px-[0.5%] py-[2%] bg-gray-100 rounded-sm
+}
+
+.comment-input
+{
+    @apply border-1 border-gray-300 rounded-xl h-9 w-[93%] outline-none text-[80%] px-[2%]
+    text-gray-800 font-medium
+}
+
+.send-comment-btn
+{
+    @apply hover:opacity-80 cursor-pointer transition-all duration-300 
+}
+
+.comment-ctr
+{
+    @apply  w-[93%] flex justify-start items-start mb-[1%]
+    
+}
+
+.comment-user
+{
+    @apply w-[10%]
+}
+
+
+
+.comment-user-pic
+{
+    @apply w-[95%] rounded-full mr-[2%]
+}
+
+.comment-content-ctr
+{
+    @apply bg-gray-200 px-[2%] py-[3%] max-w-[80%] rounded-xl
+}
+
+.commenter-name
+{
+    @apply text-[90%] text-slate-800 font-medium
+}
+
+.comment-content
+{
+    @apply text-[80%]
+}
+
+.comment-time
+{
+    @apply text-[75%] text-gray-600 ml-[1%]
+}
+
+.comments-close-btn
+{
+    @apply fixed top-[6%] left-[62.5%] z-50 rounded-full hover:bg-gray-200 transition-all duration-300
+    cursor-pointer
+}
+
+.likes-model
+{
+    @apply absolute top-[5%] bottom-[5%] left-[35%] right-[35%] bg-gray-50 rounded-xl z-50 
+    shadow-sm shadow-gray-100 flex flex-col justify-start items-start
+    pt-[4%] pb-[6%]
+
+    overflow-y-scroll 
+}
+
+/*this part is for hiding the scroll bar*/
+.likes-model::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .likes-model {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+
+  .likes-close-btn
+{
+    @apply fixed top-[6%] left-[62.5%] z-50 rounded-full hover:bg-gray-200 transition-all duration-300
+    cursor-pointer
+}
+
+.liker-ctr
+{
+    @apply flex justify-start items-center w-[65%]  py-[1%] mb-[2.5%] ml-[1%] pl-[5%]
+    hover:bg-gray-100 rounded-2xl
+}
+
+.liker-img
+{
+    @apply w-[15%] rounded-full mr-[2%]
+}
+
+.liker-name
+{
+    @apply text-[85%] text-gray-800 font-medium
+}
+
+

@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+*{
+    @apply font-[roboto]
+}
+
+.login-screen
+{
+    @apply h-screen w-[100%]  flex justify-around items-center
+}
+
+.logo-ctr
+{
+    @apply  w-[55%] h-[60%] flex flex-col justify-around items-center
+}
+
+.app-logo
+{
+    @apply w-[60%]
+}
+
+.caption
+{
+    @apply text-[200%] font-semibold text-blue-900 translate-y-[-250%]
+}
+
+.login-form-ctr
+{
+    @apply w-[30%] h-[69%] flex flex-col justify-around items-center 
+}
+
+.login-form
+{
+    @apply bg-zinc-50 shadow-lg shadow-zinc-400 w-[100%] h-[85%] flex flex-col justify-around items-center rounded-lg pb-6
+}
+
+.input-field
+{
+    @apply border-2 border-gray-400 h-[15%] w-[95%] rounded-lg outline-none px-6
+    focus:border-1 focus:border-blue-500 focus:shadow-sm focus:shadow-blue-500 transition-all duration-100
+    text-xl
+}
+
+.invalid-input-field
+{
+    @apply border-1 border-red-400 bg-red-200 focus:shadow-sm focus:shadow-red-300
+}
+
+.btn
+{
+    @apply text-[130%] text-white font-medium h-[15%] rounded-lg hover:opacity-80 transition-all duration-300
+    cursor-pointer flex justify-center items-center
+}
+
+.login-btn
+{
+    @apply bg-blue-600 w-[95%]
+}
+ 
+.create-account
+{
+    @apply bg-emerald-600 w-[45%]
+} 
+
+.forgot-password-link
+{
+    @apply text-[100%] text-blue-600 hover:underline
+}
+
+.error-msg
+{
+    @apply border-1 border-red-400 bg-red-300 text-red-600 text-xl w-[100%] text-center py-2
+    rounded-lg mb-[2%]
+}
+
+.msg
+{
+    @apply border-1 border-blue-400 bg-blue-300 text-blue-600 text-xl w-[100%] text-center py-2
+    rounded-lg mb-[2%]
+}
+
+/*2fa login form styles*/
+.two-fa-login-ctr
+{
+    @apply h-[45%] w-[35%] flex flex-col justify-around hidden
+}
+.two-fa-login-form
+{
+    @apply h-[80%] w-[100%] bg-zinc-100 rounded-lg shadow-xl shadow-slate-300
+    flex flex-col justify-around items-start pl-6  
+}
+
+.two-fa-login-btn
+{
+    @apply  bg-blue-600 text-white text-[100%] h-[70%] w-[17%] px-3 py-2 
+    flex justify-center items-center rounded-lg cursor-pointer hover:opacity-90 transition-all duration-300
+}

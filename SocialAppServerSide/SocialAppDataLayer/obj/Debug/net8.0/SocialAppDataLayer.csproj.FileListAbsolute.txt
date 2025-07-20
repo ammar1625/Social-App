@@ -1,0 +1,16 @@
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\bin\Debug\net8.0\SocialAppDataLayer.deps.json
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\bin\Debug\net8.0\SocialAppDataLayer.runtimeconfig.json
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\bin\Debug\net8.0\SocialAppDataLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\bin\Debug\net8.0\SocialAppDataLayer.pdb
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.csproj.AssemblyReference.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.AssemblyInfoInputs.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.AssemblyInfo.cs
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.csproj.CoreCompileInputs.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.sourcelink.json
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\refint\SocialAppDataLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.pdb
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\SocialAppDataLayer.genruntimeconfig.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\obj\Debug\net8.0\ref\SocialAppDataLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppDataLayer\bin\Debug\net8.0\appconfigs.json

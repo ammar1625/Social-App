@@ -1,0 +1,17 @@
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\SocialAppBusinessLayer.deps.json
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\SocialAppBusinessLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\SocialAppBusinessLayer.pdb
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\SocialAppDataLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\SocialAppDataLayer.pdb
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.csproj.AssemblyReference.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.AssemblyInfoInputs.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.AssemblyInfo.cs
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.csproj.CoreCompileInputs.cache
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.sourcelink.json
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAp.8DAA02F7.Up2Date
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\refint\SocialAppBusinessLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\SocialAppBusinessLayer.pdb
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\obj\Debug\net8.0\ref\SocialAppBusinessLayer.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppBusinessLayer\bin\Debug\net8.0\appconfigs.json

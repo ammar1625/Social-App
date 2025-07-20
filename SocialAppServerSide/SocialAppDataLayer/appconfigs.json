@@ -1,0 +1,3 @@
+{
+  "ConnectionString": "Server=.;Database=SocialAppDb;User=sa;Password=123456;TrustServerCertificate=True"
+}

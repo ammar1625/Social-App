@@ -1,0 +1,11 @@
+﻿namespace ApiAuthenticationAndSecurity.User_Management
+{
+    public class EmailConfigurations
+    {
+        public string From { get; set; }
+        public string SmtpServer { get; set; }
+        public int Port { get; set; }
+        public string UserName { get; set; }
+        public string PassWord { get; set; }
+    }
+}

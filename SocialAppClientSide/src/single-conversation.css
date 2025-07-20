@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.single-conversation
+{
+    @apply w-[100%] h-screen flex justify-center items-center bg-blue-50;
+}

@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+.conversations-ctr
+{
+    @apply border-1 h-[100%] w-[100%] flex justify-center items-center
+}
+
+/*these are conversations members section styles*/
+.conversations-members-ctr
+{
+    @apply border-yellow-400 w-[21%] h-[100%] max-h-[100%] bg-blue-50 flex flex-col justify-start items-center
+    overflow-y-scroll
+}
+
+/*this part is for hiding the scroll bar*/
+.conversations-members-ctr::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .conversations-members-ctr {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+.conversation-member
+{
+    @apply w-[100%] h-[12%]  flex justify-start items-center pl-[4%] cursor-pointer 
+    hover:bg-blue-100 transition-all duration-300 rounded-lg py-[2%]
+}
+
+.conversation-member-img
+{
+    @apply w-[19%] rounded-full mr-[5%]
+}
+
+.conversation-member-name
+{
+    @apply text-[100%] text-slate-800 font-medium
+}
+
+
+/*these are messages part styles*/
+.conversations-right-side-ctr
+{
+    @apply  border-blue-500 w-[79%] h-[100%] relative bg-white
+}
+
+.messages-part-header
+{
+    @apply  w-[100%] h-[10%] border-b-1 border-gray-200
+}
+
+.current-conversation-member
+{
+    @apply  border-blue-400 w-[25%] h-[100%] flex justify-start items-center 
+}
+
+.current-conversation-member-img
+{
+    @apply w-[18%] rounded-full mx-[3%]
+}
+
+.current-conversation-member-name
+{
+    @apply text-[100%] font-medium text-slate-800
+}
+
+.messages-part-ctr
+{
+    @apply w-[100%] h-[82%] flex flex-col justify-start items-center overflow-y-scroll
+}
+
+/*this part is for hiding the scroll bar*/
+.messages-part-ctr::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .messages-part-ctr {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+.message-ctr
+{
+    @apply flex flex-col justify-start items-end w-[100%] px-[0.5%] py-[0.5%] 
+}
+
+.incoming-msg-ctr
+{
+    @apply flex justify-start items-start
+}
+
+.message
+{
+    @apply bg-blue-600 px-[1.5%] py-[1%] rounded-xl text-white text-[80%] font-medium max-w-[35%]
+}
+
+.incoming-message
+{
+    @apply bg-purple-700
+}
+
+.message-time
+{
+    @apply text-[70%] text-gray-500 font-medium mt-[0.5%]
+}
+
+.msg-img
+{
+    @apply object-cover w-[25%]
+}
+
+.send-message-ctr
+{
+    @apply w-[100%] h-[8%] flex justify-between items-center pr-[1.5%]
+}
+
+.send-input-field
+{
+    @apply border-2 border-gray-300 rounded-lg w-[95%] h-[100%] px-[1%] text-[120%] text-slate-800 font-medium
+    outline-none focus:shadow-sm focus:shadow-blue-400
+}
+
+.msg-media-input
+{
+    @apply hidden
+}
+
+.message-media-icon
+{
+    @apply hover:cursor-pointer
+}
+
+.send-message-btn
+{
+    @apply cursor-pointer px-[0.5%] py-[0.5%]
+}
+
+.msg-media-ctr
+{
+    @apply absolute bottom-[10%] left-[75%] h-[20%] w-[16%] rounded-md border-2
+}
+
+.msg-media-img
+{
+    @apply w-[100%] h-[100%] rounded-md
+}
+
+.msg-media-close-btn
+{
+    @apply text-white text-[60%] bg-black rounded-full h-[3%] w-[2%]
+    flex justify-center items-center hover:cursor-pointer hover:opacity-80 transition-all duration-300
+     absolute bottom-[28%] left-[89%] z-50
+}

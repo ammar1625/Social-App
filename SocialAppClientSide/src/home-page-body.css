@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.home-page-body-ctr
+{
+    @apply  flex justify-between items-center h-[82%] w-[100%]
+}

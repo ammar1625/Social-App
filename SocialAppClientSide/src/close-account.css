@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.close-account-ctr
+{
+    @apply h-[100%] w-[100%] bg-slate-100 flex justify-center items-center
+}
+
+.close-account-title
+{
+    @apply text-[110%] font-medium
+}

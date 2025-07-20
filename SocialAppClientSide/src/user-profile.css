@@ -1,0 +1,175 @@
+@import 'tailwindcss';
+
+.profile-ctr
+{
+    @apply h-screen w-[100%] bg-zinc-200 flex justify-center items-center relative
+}
+
+.profile
+{
+    @apply h-[95%] max-h-[95%] w-[40%] rounded-lg bg-white shadow-lg shadow-slate-600 overflow-y-visible
+    flex flex-col justify-start items-center pt-[2%]
+}
+
+/*this part is for hiding the scroll bar*/
+.profile::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .profile {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+  .infos-ctr
+  {
+    @apply  w-[100%] h-[24%] flex flex-col justify-center items-center relative z-0
+  }
+
+  .profile-pic
+  {
+    @apply w-[18%] rounded-full mb-[2%]
+  }
+
+  .change-pic-icon
+  {
+        @apply rounded-full cursor-pointer hover:opacity-85 transition-all duration-300 
+       absolute top-[50%] left-[56%] z-50
+  }
+
+  .user-name
+  {
+    @apply text-[100%] text-slate-800 font-medium
+  }
+
+  .friends-ctr
+  {
+    @apply w-[100%] h-[35%] 
+  }
+
+  .friends-count-ctr
+  {
+    @apply h-[22%] w-[100%] px-[2%]
+  }
+
+  .friends-title
+  {
+    @apply text-[90%] text-slate-900 font-medium
+  }
+
+  .friends-count
+  {
+    @apply text-[90%] text-slate-900 font-light
+  }
+
+  .friends
+  {
+     @apply  w-[100%] h-[78%] max-h-[78%]
+     flex justify-start items-start flex-wrap
+     overflow-y-scroll py-[1%] bg-gray-50 rounded-xl
+  }
+
+  /*this part is for hiding the scroll bar*/
+.friends::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .friends {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+  .friend
+  {
+     @apply flex flex-col justify-between items-start  w-[18%] h-[55%]
+     mx-[0.5%] my-[0.5%] pl-[2%] rounded-lg
+  }
+
+  .friend-pic
+  {
+    @apply w-[100%] h-[80%] object-cover rounded-2xl
+  }
+
+  .friend-name
+  {
+    @apply text-[80%] text-slate-800 font-medium 
+  }
+
+  .profile-posts-ctr
+  {
+     @apply  w-[100%] h-[41%] overflow-y-scroll
+     flex flex-col justify-start items-center bg-zinc-100
+     rounded-xl py-[2%]
+  }
+
+   /*this part is for hiding the scroll bar*/
+.profile-posts-ctr::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+  
+  .profile-posts-ctr {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+  .profile-post-ctr
+  {
+    @apply bg-white
+  }
+
+  .profile-post-user-name
+  {
+    @apply text-[70%]
+  }
+
+  .profile-post-user-img
+  {
+    @apply w-[27%]
+  }
+
+  .profile-user-post-ctr
+  {
+    @apply  w-[55%]
+  }
+
+  .profile-post-media
+  {
+    @apply w-[100%] h-[42%]  object-cover
+  }
+
+  .button-ctr
+  {
+    @apply  w-[100%] flex justify-center items-center 
+  }
+
+  .add-friend-btn
+  {
+     @apply bg-blue-600 px-[1%] py-[1%] rounded-lg text-white text-[80%] font-medium  mx-[6%] 
+     min-w-[15%] max-w-[25%] flex justify-around items-center cursor-pointer hover:opacity-85 transition-all duration-300
+  } 
+
+  .friendship-request-response-ctr
+  {
+     @apply absolute  top-[32.5%] left-[41%] flex flex-col justify-start items-center w-[7%] h-[8%]
+     rounded-lg bg-stone-100 transition-all duration-300
+  }
+
+  .response-btn
+  {
+    @apply h-[50%] w-[100%] transition-all duration-200 rounded-lg 
+    hover:bg-stone-300 
+    text-[90%] font-medium text-zinc-700 cursor-pointer
+  }
+
+  .friendship-request-cancel-ctr
+  {
+    @apply absolute  top-[32.5%] left-[41.6%] flex flex-col justify-start items-center w-[6.4%] h-[4%]
+    rounded-lg bg-stone-100 transition-all duration-300
+  }
+
+  .friendship-request-cancel-btn
+  {
+    @apply h-[100%] w-[100%] transition-all duration-200 rounded-lg 
+    hover:bg-stone-300 
+    text-[90%] font-medium text-zinc-700 cursor-pointer
+  }
