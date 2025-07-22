@@ -24,6 +24,7 @@ namespace SocialAppDataLayer.Models
         public string PassWord { get; set; } = null!;
 
         public string Phone { get; set; } = null!;
+        public char Gender { get; set; }
 
         public string? ProfilePic { get; set; }
 

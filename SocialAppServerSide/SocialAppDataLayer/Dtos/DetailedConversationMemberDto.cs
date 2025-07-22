@@ -25,6 +25,7 @@ namespace SocialAppDataLayer.Dtos
 
         public string Phone { get; set; } = null!;
 
+        public char Gender { get; set; }
         public string? ProfilePic { get; set; }
 
         public bool IsEmailVerified { get; set; }

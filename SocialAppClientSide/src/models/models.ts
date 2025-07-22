@@ -308,3 +308,32 @@ export interface conversationMemberToFetchModel
       
 }
 
+export interface conversationMember
+{
+    conversationMemberId: string,
+    userId: string,
+    firstName: string,
+    lastName: string,
+    userName: string,
+    dateOfBirth: string,
+    email: string,
+    passWord: string,
+    phone:string,
+    gender:string,
+    profilePic: string|null,
+    isEmailVerified: boolean,
+    isActive: boolean,
+    conversationId: string
+  }
+
+  export interface messageModel
+  {
+    messageId: string,
+    senderId: string,
+    conversationId: string,
+    content: string,
+    messageMediaUrl: string|null,
+    sentAt: string,
+    sender:user
+  }
+

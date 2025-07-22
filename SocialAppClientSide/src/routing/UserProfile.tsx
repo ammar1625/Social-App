@@ -38,6 +38,7 @@ import { useDeleteLike } from "../hooks/useDeleteLike";
 import { useGetConversationByMembers } from "../hooks/useGetConversationByMembers";
 import { useAddNewConversation } from "../hooks/useAddNewConversation";
 import { useAddNewConversationMember } from "../hooks/useAddNewConversationMember";
+import { useCurrentConversationIdStore } from "../stores/useCurrentConversationIdStore";
 //import { useInvitationsStore } from "../stores/useInvitationsStore";
 function UserProfile()
 {
@@ -61,6 +62,7 @@ function UserProfile()
     const {isLikeVisible,setIsLikeVisible} = useIsLikeVisibleStore();
     const {postId,setCurrentPostId} = useCurrentPostIdStore();
     const {commentContent,setCommentContent} = useCommentContentStore();
+    const {setConversationId} = useCurrentConversationIdStore();
     const [expandedPosts, setExpandedPosts] = useState<Record<string, boolean>>({});
     
     //const {invitations:wsInvitations ,setInvitations} = useInvitationsStore();
@@ -87,11 +89,7 @@ function UserProfile()
     const {mutateAsync:mutateConversationMemberAsync} = useAddNewConversationMember();
    
 
-    console.log("is conversation exists ",conversationData);
-    if(newConversationData)
-    {
-     console.log("new conversation data ",newConversationData);
-    }
+  
     function displayElement(element:React.RefObject<HTMLDivElement|null> , opacity:string)
             {
                 if(element.current)
@@ -496,6 +494,7 @@ function UserProfile()
                 <button className="add-friend-btn"
                     //handle conversation addition
                     onClick={()=>{
+                        setConversationId(conversationData?.conversationId?conversationData.conversationId:"");
                         if(!conversationData)//if there is not existing conversation with this user then create one
                         {
                             mutateConversation();
