@@ -1210,54 +1210,8 @@
   },
   {
     "ContainingType": "SocialAppApi.Controllers.MessageController",
-    "Method": "AddNewMessage",
-    "RelativePath": "api/Message/addmessage",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "SenderId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ConversationId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Content",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "MessageMedia",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "SocialAppApi.Controllers.MessageController",
     "Method": "GetAllMessages",
-    "RelativePath": "api/Message/messages/{ConversationId}",
+    "RelativePath": "api/Messages/messages/{ConversationId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1282,6 +1236,42 @@
           "text/json"
         ],
         "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "SocialAppApi.Controllers.MessageController",
+    "Method": "SaveImageAsync",
+    "RelativePath": "api/Messages/save-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },

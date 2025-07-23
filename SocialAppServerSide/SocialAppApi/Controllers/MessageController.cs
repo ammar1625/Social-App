@@ -8,9 +8,10 @@ using SocialAppDataLayer.Dtos;
 
 namespace SocialAppApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Messages")]
     [ApiController]
     [Authorize]
+    [AllowAnonymous]
     public class MessageController : ControllerBase
     {
         private readonly IWebHostEnvironment _env;
@@ -19,44 +20,78 @@ namespace SocialAppApi.Controllers
             _env = env;
         }
        
-        [HttpPost("addmessage")]
+        //[HttpPost("addmessage")]
+        //[ProducesResponseType(StatusCodes.Status200OK)]
+        //[ProducesResponseType(StatusCodes.Status400BadRequest)]
+        //public async Task<IActionResult> AddNewMessage(MessageModel Model)
+        //{
+
+        //    string? MediaUrl = null;
+
+        //    //handle post picture if any!
+        //    if (Model.MessageMedia != null)
+        //    {
+        //        string FolderName = "Messages-Media";
+        //        var UploadsFolder = Path.Combine(_env.WebRootPath, FolderName);
+
+        //        if (!Directory.Exists(UploadsFolder))
+        //        {
+        //            Directory.CreateDirectory(UploadsFolder);
+        //        }
+
+        //        var FileName = Guid.NewGuid() + Path.GetExtension(Model.MessageMedia.FileName);
+        //        var FilePath = Path.Combine(UploadsFolder, FileName);
+
+        //        using (FileStream Stream = new FileStream(FilePath, FileMode.Create))
+        //        {
+        //            await Model.MessageMedia.CopyToAsync(Stream);
+        //        }
+
+        //        MediaUrl = $"{Request.Scheme}://{Request.Host}/{FolderName}/{FileName}";
+        //    }
+        //    clsMessage message = new clsMessage(new MessageDto(Guid.NewGuid().ToString(),Model.SenderId,Model.ConversationId,
+        //        Model.Content,MediaUrl,DateTime.Now));
+
+        //    if(await message.AddNewMessageAsync())
+        //    {
+        //        return Ok("message sent");
+        //    }
+        //    return StatusCode(500,"internal server error");
+        //}
+
+        [HttpPost("save-image")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> AddNewMessage(MessageModel Model)
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> SaveImageAsync(IFormFile Image)
         {
-
-            string? MediaUrl = null;
-
-            //handle post picture if any!
-            if (Model.MessageMedia != null)
+            if(Image== null || Image.Length==0)
             {
-                string FolderName = "Messages-Media";
-                var UploadsFolder = Path.Combine(_env.WebRootPath, FolderName);
-
-                if (!Directory.Exists(UploadsFolder))
-                {
-                    Directory.CreateDirectory(UploadsFolder);
-                }
-
-                var FileName = Guid.NewGuid() + Path.GetExtension(Model.MessageMedia.FileName);
-                var FilePath = Path.Combine(UploadsFolder, FileName);
-
-                using (FileStream Stream = new FileStream(FilePath, FileMode.Create))
-                {
-                    await Model.MessageMedia.CopyToAsync(Stream);
-                }
-
-                MediaUrl = $"{Request.Scheme}://{Request.Host}/{FolderName}/{FileName}";
+                return BadRequest("invalid data");
             }
-            clsMessage message = new clsMessage(new MessageDto(Guid.NewGuid().ToString(),Model.SenderId,Model.ConversationId,
-                Model.Content,MediaUrl,DateTime.Now));
 
-            if(await message.AddNewMessageAsync())
+            string FolderName = "Messages-Media";
+            var UploadsFolder = Path.Combine(_env.WebRootPath, FolderName);
+
+            if (!Directory.Exists(UploadsFolder))
             {
-                return Ok("message sent");
+                Directory.CreateDirectory(UploadsFolder);
             }
-            return StatusCode(500,"internal server error");
+
+            var FileName = Guid.NewGuid() + Path.GetExtension(Image.FileName);
+            var FilePath = Path.Combine(UploadsFolder, FileName);
+
+            using (FileStream Stream = new FileStream(FilePath, FileMode.Create))
+            {
+                await Image.CopyToAsync(Stream);
+            }
+
+           string MediaUrl = $"{Request.Scheme}://{Request.Host}/{FolderName}/{FileName}";
+
+
+            return Ok(MediaUrl);
         }
+
         [AllowAnonymous]
         [HttpGet("messages/{ConversationId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]

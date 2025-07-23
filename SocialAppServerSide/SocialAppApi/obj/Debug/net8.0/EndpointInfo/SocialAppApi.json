@@ -1760,33 +1760,10 @@
         }
       }
     },
-    "/api/Message/addmessage": {
+    "/api/Messages/save-image": {
       "post": {
         "tags": [
           "Message"
-        ],
-        "parameters": [
-          {
-            "name": "SenderId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "ConversationId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "Content",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -1794,14 +1771,14 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "MessageMedia": {
+                  "Image": {
                     "type": "string",
                     "format": "binary"
                   }
                 }
               },
               "encoding": {
-                "MessageMedia": {
+                "Image": {
                   "style": "form"
                 }
               }
@@ -1831,11 +1808,14 @@
                 }
               }
             }
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       }
     },
-    "/api/Message/messages/{ConversationId}": {
+    "/api/Messages/messages/{ConversationId}": {
       "get": {
         "tags": [
           "Message"

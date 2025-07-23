@@ -8,7 +8,7 @@
 
         public string? Content { get; set; } = null!;
 
-        public IFormFile? MessageMedia { get; set; }
+        public string? MessageMediaUrl { get; set; } = null!;
 
     }
 }

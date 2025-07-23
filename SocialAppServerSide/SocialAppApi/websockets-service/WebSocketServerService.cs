@@ -17,6 +17,7 @@ namespace SocialAppApi.websockets_service
 
             _wss.AddWebSocketService<NotificationsBehavior>("/notifications"); // notifications behaviour endpoint
             _wss.AddWebSocketService<InvitationsBehaviour>("/invitations"); // invitations behaviour endpoint
+            _wss.AddWebSocketService<MessagesBehaviour>("/messages"); // messages behaviour endpoint
 
             _wss.Start();
 
