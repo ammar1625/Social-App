@@ -4,7 +4,7 @@ import axiosInstance from "../services/apiClient";
 
 function getMessagesList(conversationId:string)
 {
-    return axiosInstance.get<messageModel[]>(`/Message/messages/${conversationId}`).then(res=>res.data);
+    return axiosInstance.get<messageModel[]>(`/Messages/messages/${conversationId}`).then(res=>res.data);
 }
 
 export function useGetMessagesList(conversationId:string)

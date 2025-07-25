@@ -54,7 +54,7 @@ function ConversationsMembers()
             <p className="conversation-member-name">Ammar</p>
         </div> */}
 
-        {conversationMembersListData?.map(c=><div data-infos = {JSON.stringify({
+        {conversationMembersListData?.map(c=><div  data-infos = {JSON.stringify({
             userId:c.userId,
             conversationId:c.conversationId
         })} key={c.conversationMemberId} className="conversation-member" onClick={handleConversationMemberClick}>
