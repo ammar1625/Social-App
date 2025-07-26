@@ -48,6 +48,7 @@ namespace SocialAppDataLayer
                     List<Message> Messages = await Context.Messages
                         .Include(m=>m.Sender)
                         .Where(m=>m.ConversationId==ConversationId)
+                        .OrderBy(m=>m.SentAt)
                         .ToListAsync();
 
                     if(Messages.Count>0)

@@ -3,6 +3,7 @@
     public class MessageModel
     {
         public string SenderId { get; set; } = null!;
+        public string RecieverId { get; set; } = null!;
 
         public string ConversationId { get; set; } = null!;
 

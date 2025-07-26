@@ -13,8 +13,11 @@ import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { format } from 'date-fns';
 import { useEffect, useRef, useState } from "react";
 import { useSaveImageMedia } from "../hooks/useSaveMessageMedia";
+import { useMessagesWebSocket } from "../hooks/useMessagesWebSocket";
+import { useQueryClient } from "@tanstack/react-query";
 function ConversationsRightSide()
 {
+    const queryClient = useQueryClient();
     const {user} = userCurrentUserStore()
     const {userId} = useTargetUserIdStore();
 
@@ -30,6 +33,8 @@ function ConversationsRightSide()
     const {data:userData} = useGetUserById(userId);
     const {data:messagesData} = useGetMessagesList(conversationId);
     const {data:savedImageData, mutateAsync:mutateImageAsync} = useSaveImageMedia();
+
+    const {sendMessage} = useMessagesWebSocket('ws://localhost:7890/messages' ,user.userId , conversationId ,queryClient );
 
      function formatDateRelative(dateString: string): string {
         const inputDate = new Date(dateString);
@@ -101,19 +106,38 @@ function ConversationsRightSide()
                 }
                 else //send the message directly without any media
                 {
-                    //console.log(messageValue);
+                    sendMessage(JSON.stringify(
+                        {
+                            senderId:user.userId,
+                            recieverId:userId,
+                            conversationId:conversationId,
+                            content:messageContent,
+                            messageMediaUrl:null,
+                        }
+                    ));
 
-                    
+                    if(messageInputRef.current)
+                    messageInputRef.current.value = "";
                 }
                 
            }
 
            useEffect(()=>{
-                if(savedImageData)
+                if(savedImageData && shouldSend)
                 {
-                    console.log("saved image Url ",savedImageData);
+                    sendMessage(JSON.stringify(
+                        {
+                            senderId:user.userId,
+                            recieverId:userId,
+                            conversationId:conversationId,
+                            content:messageContent.trim().length>0?messageContent:null,
+                            messageMediaUrl:savedImageData,
+                        }
+                    ));
+                    if(messageInputRef.current)
+                        messageInputRef.current.value = "";
                 }
-           },[savedImageData]);
+           },[savedImageData , shouldSend]);
 
     return <div className="conversations-right-side-ctr">
         {selectedFile&&<button className="msg-media-close-btn" onClick={handleImageDeletion}><IoClose size={16} color="white"/></button>}
@@ -186,7 +210,9 @@ function ConversationsRightSide()
             </div>
 
             <div className="send-message-ctr">
-                <input ref={messageInputRef} type="text" className="send-input-field" />
+                <input ref={messageInputRef} type="text" className="send-input-field"  onChange={(e)=>{
+                    setMessageContent(e.target.value);
+                }}/>
                 <input onChange={handleImageSelection} ref={ImgInputRef} id="msg-media-input" type="file" className="msg-media-input" accept="image/*" />
                 <label htmlFor="msg-media-input" className="message-media-icon"><FaFileImage color="green" size={22}/></label>
                 <button className="send-message-btn"

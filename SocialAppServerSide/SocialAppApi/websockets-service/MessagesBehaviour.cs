@@ -43,7 +43,17 @@ namespace SocialAppApi.websockets_service
 
                 await Message.AddNewMessageAsync();
 
-                string SerializedMessage = JsonSerializer.Serialize( e.Data , SerializationOptions );
+                var MessageObj = new //Anonymous object to collect all message properties
+                {
+                    MessageId = Message.MessageId,
+                    SenderId = Message.SenderId,
+                    RecieverId = DeserializedMessage.RecieverId,
+                    Content = Message.Content,
+                    MessageMediaUrl = Message.MessageMediaUrl,
+                    SentAt = Message.SentAt,
+                };
+
+                string SerializedMessage = JsonSerializer.Serialize( MessageObj , SerializationOptions );
 
                 Sessions.Broadcast(SerializedMessage);
 

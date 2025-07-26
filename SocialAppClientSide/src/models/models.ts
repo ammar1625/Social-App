@@ -331,9 +331,20 @@ export interface conversationMember
     messageId: string,
     senderId: string,
     conversationId: string,
-    content: string,
+    content: string|null,
     messageMediaUrl: string|null,
     sentAt: string,
     sender:user
+  }
+
+  export interface webSocketMessageModel
+  {
+    messageId: string,
+    senderId: string,
+    recieverId:string,
+    conversationId: string,
+    content: string|null,
+    messageMediaUrl: string|null,
+    sentAt: string,
   }
 
