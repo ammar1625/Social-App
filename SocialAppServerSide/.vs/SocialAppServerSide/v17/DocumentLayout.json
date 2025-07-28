@@ -765,8 +765,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\MessageData.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:01:52.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:01:52.538Z"
             },
             {
               "$type": "Document",
@@ -776,7 +775,7 @@
               "RelativeDocumentMoniker": "SocialAppDataLayer\\UserData.cs",
               "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\UserData.cs",
               "RelativeToolTip": "SocialAppDataLayer\\UserData.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAswB0BAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T14:36:22.221Z",
               "EditorCaption": ""
@@ -791,8 +790,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsUser.cs",
               "ViewState": "AgIAAJwAAAAAAAAAAAAuwKQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:33:07.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:33:07.437Z"
             },
             {
               "$type": "Document",
@@ -804,8 +802,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAADMBAAAAAAAAAAAYwEgBAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:18:05.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:18:05.53Z"
             },
             {
               "$type": "Document",
