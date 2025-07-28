@@ -335,7 +335,7 @@
         }
       }
     },
-    "/api/Authentication/isExists-with-email/{Email}": {
+    "/api/Authentication/isExists-with-email": {
       "get": {
         "tags": [
           "Authentication"
@@ -343,8 +343,14 @@
         "parameters": [
           {
             "name": "Email",
-            "in": "path",
-            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserId",
+            "in": "query",
             "schema": {
               "type": "string"
             }
@@ -377,7 +383,7 @@
         }
       }
     },
-    "/api/Authentication/isExists-with-username/{UserName}": {
+    "/api/Authentication/isExists-with-username": {
       "get": {
         "tags": [
           "Authentication"
@@ -385,8 +391,14 @@
         "parameters": [
           {
             "name": "UserName",
-            "in": "path",
-            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "UserId",
+            "in": "query",
             "schema": {
               "type": "string"
             }

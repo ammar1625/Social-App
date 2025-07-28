@@ -64,7 +64,7 @@
   {
     "ContainingType": "SocialAppApi.Controllers.AuthenticationController",
     "Method": "IsUserExistsByEmailAsync",
-    "RelativePath": "api/Authentication/isExists-with-email/{Email}",
+    "RelativePath": "api/Authentication/isExists-with-email",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -72,7 +72,12 @@
       {
         "Name": "Email",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -95,7 +100,7 @@
   {
     "ContainingType": "SocialAppApi.Controllers.AuthenticationController",
     "Method": "IsUserExistsByUserNameAsync",
-    "RelativePath": "api/Authentication/isExists-with-username/{UserName}",
+    "RelativePath": "api/Authentication/isExists-with-username",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -103,7 +108,12 @@
       {
         "Name": "UserName",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

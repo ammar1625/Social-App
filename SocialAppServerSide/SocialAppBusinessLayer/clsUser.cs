@@ -160,14 +160,14 @@ namespace SocialAppBusinessLayer
             return await UserData.UpdateProfilePicAsync(this.UserId,this.ProfilePic);
         }
 
-        public static async Task<bool> IsUserExistsByEmailAsync(string Email)
+        public static async Task<bool> IsUserExistsByEmailAsync(string Email , string? UserId)
         {
-            return await UserData.IsUserExistsByEmailAsync(Email);
+            return await UserData.IsUserExistsByEmailAsync(Email, UserId);
         }
 
-        public static async Task<bool> IsUserExistsByUserNameAsync(string UserName)
+        public static async Task<bool> IsUserExistsByUserNameAsync(string UserName,string? UserId)
         {
-            return await UserData.IsUserExistsByUserNameAsync(UserName);
+            return await UserData.IsUserExistsByUserNameAsync(UserName, UserId);
         }
 
         public static async Task<List<UserDto>> GetUsersListAsync(string NameFilter)

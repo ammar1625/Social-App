@@ -265,14 +265,18 @@ namespace SocialAppDataLayer
             return AffectedRows > 0;
         }
 
-        public static async Task<bool> IsUserExistsByEmailAsync(string Email)
+        public static async Task<bool> IsUserExistsByEmailAsync(string Email , string? UserId)
         {
             bool IsExists = false;
             using (AppDbContext Context = new AppDbContext())
             {
                 try
                 {
+                    if(UserId == null)
                     IsExists = await Context.Users.AnyAsync(u=>u.Email==Email);
+                    else
+                    IsExists = await Context.Users.AnyAsync(u => u.Email == Email && u.UserId != UserId);
+
                 }
                 catch (Exception ex)
                 {
@@ -282,14 +286,17 @@ namespace SocialAppDataLayer
             return IsExists;
         }
 
-        public static async Task<bool> IsUserExistsByUserNameAsync(string UserName)
+        public static async Task<bool> IsUserExistsByUserNameAsync(string UserName , string? UserId)
         {
             bool IsExists = false;
             using (AppDbContext Context = new AppDbContext())
             {
                 try
                 {
+                    if(UserId == null)
                     IsExists = await Context.Users.AnyAsync(u => u.UserName == UserName);
+                    else
+                    IsExists = await Context.Users.AnyAsync(u => u.UserName == UserName && u.UserId != UserId);
                 }
                 catch (Exception ex)
                 {

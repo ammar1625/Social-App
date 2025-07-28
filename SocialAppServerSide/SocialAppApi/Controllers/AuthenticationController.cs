@@ -308,32 +308,32 @@ namespace SocialAppApi.Controllers
             return Ok(null);
         }
        
-        [HttpGet("isExists-with-email/{Email}")]
+        [HttpGet("isExists-with-email")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> IsUserExistsByEmailAsync(string Email)
+        public async Task<IActionResult> IsUserExistsByEmailAsync([FromQuery]string Email ,[FromQuery] string? UserId)
         {
             if(Email== null||string.IsNullOrEmpty(Email)||string.IsNullOrWhiteSpace(Email))
             {
                 return BadRequest("invalid data");
             }
 
-            bool IsExists = await clsUser.IsUserExistsByEmailAsync(Email);
+            bool IsExists = await clsUser.IsUserExistsByEmailAsync(Email, UserId);
             return Ok(IsExists);
         }
 
 
-        [HttpGet("isExists-with-username/{UserName}")]
+        [HttpGet("isExists-with-username")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> IsUserExistsByUserNameAsync(string UserName)
+        public async Task<IActionResult> IsUserExistsByUserNameAsync([FromQuery] string UserName,[FromQuery] string? UserId)
         {
             if (UserName == null || string.IsNullOrEmpty(UserName) || string.IsNullOrWhiteSpace(UserName))
             {
                 return BadRequest("invalid data");
             }
 
-            bool IsExists = await clsUser.IsUserExistsByUserNameAsync(UserName);
+            bool IsExists = await clsUser.IsUserExistsByUserNameAsync(UserName, UserId);
             return Ok(IsExists);
         }
 
