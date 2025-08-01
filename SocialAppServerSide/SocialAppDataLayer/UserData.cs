@@ -229,7 +229,8 @@ namespace SocialAppDataLayer
                                        @UserName={UserModel.UserName},
                                        @DateOfBirth={UserModel.DateOfBirth},
                                        @Email={UserModel.Email},
-                                       @Phone={UserModel.Phone}
+                                       @Phone={UserModel.Phone},
+                                       @Gender = {UserModel.Gender}
                                ");
 
                 }

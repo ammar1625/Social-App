@@ -27,6 +27,10 @@ function CreateAccount()
     const {data:isEmailExists}  =useIsEmailExists(userEmail);
     const {data:isUserNameExists} = useIsUserNameExists(userName);
     
+    const now = new Date(); // the the current date
+    const maxDateInMelliSeconds =now.setDate(now.getDate()-1);
+    const maxDate = new Date(maxDateInMelliSeconds).toISOString().split("T")[0];
+
     function clearFields()
     {
         const refs = [firstNameRef,lastNameRef,birthDateRef,emailRef,phoneRef,userNameRef,passwordRef];
@@ -207,7 +211,7 @@ function CreateAccount()
 
                 <div className="birthdate-ctr">
                     <p className="sub-title">birthday</p>
-                    <input ref={birthDateRef} type="date" className="input-field birthdate-input-field" />
+                    <input max={maxDate} ref={birthDateRef} type="date" className="input-field birthdate-input-field" />
                 </div>
 
                 <div className="gender-field-ctr">

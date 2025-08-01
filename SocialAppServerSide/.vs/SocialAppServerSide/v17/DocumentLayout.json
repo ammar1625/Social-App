@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|solutionrelative:socialappdatalayer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8557D028-D9D5-4518-A420-D7F05667CD11}|SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappbusinesslayer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8557D028-D9D5-4518-A420-D7F05667CD11}|SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj|solutionrelative:socialappbusinesslayer\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|solutionrelative:socialappdatalayer\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|solutionrelative:socialappdatalayer\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\models\\invitationexistsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\models\\invitationexistsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\models\\conversationmembermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -205,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\invitationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|solutionrelative:socialappdatalayer\\invitationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|solutionrelative:socialappdatalayer\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{649F33EE-5189-45D4-BECA-E50FB04B842F}|SocialAppDataLayer\\SocialAppDataLayer.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappdatalayer\\models\\invitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -717,11 +717,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "MessagesBehaviour.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
+              "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
+              "RelativeToolTip": "SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwB4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T16:54:23.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageData.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\MessageData.cs",
+              "RelativeDocumentMoniker": "SocialAppDataLayer\\MessageData.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\MessageData.cs",
+              "RelativeToolTip": "SocialAppDataLayer\\MessageData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:01:52.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\UserData.cs",
+              "RelativeDocumentMoniker": "SocialAppDataLayer\\UserData.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\UserData.cs",
+              "RelativeToolTip": "SocialAppDataLayer\\UserData.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAtwOgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:36:22.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUser.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsUser.cs",
+              "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsUser.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsUser.cs",
+              "RelativeToolTip": "SocialAppBusinessLayer\\clsUser.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:33:07.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAYwEgBAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:18:05.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserApi.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
+              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\UserApi.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
+              "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:43:39.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:42:32.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T14:06:29.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MessageDto.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\MessageDto.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\MessageDto.cs",
@@ -734,79 +834,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UserDto.cs",
-              "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\UserDto.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UserDto.cs",
-              "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UserDto.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwCcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:06:29.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessagesBehaviour.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
-              "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
-              "RelativeToolTip": "SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwB4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T16:54:23.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MessageData.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\MessageData.cs",
-              "RelativeDocumentMoniker": "SocialAppDataLayer\\MessageData.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\MessageData.cs",
-              "RelativeToolTip": "SocialAppDataLayer\\MessageData.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:01:52.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\UserData.cs",
-              "RelativeDocumentMoniker": "SocialAppDataLayer\\UserData.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\UserData.cs",
-              "RelativeToolTip": "SocialAppDataLayer\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:36:22.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsUser.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsUser.cs",
-              "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsUser.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsUser.cs",
-              "RelativeToolTip": "SocialAppBusinessLayer\\clsUser.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAuwKQAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:33:07.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAAAYwEgBAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:18:05.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "WebSocketServerService.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\WebSocketServerService.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\WebSocketServerService.cs",
@@ -818,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "InvitationsBehaviour.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\InvitationsBehaviour.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\InvitationsBehaviour.cs",
@@ -830,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MessageController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\MessageController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\MessageController.cs",
@@ -842,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DetailedConversationMember.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Models\\DetailedConversationMember.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Models\\DetailedConversationMember.cs",
@@ -854,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MessageModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\MessageModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\MessageModel.cs",
@@ -866,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DetailedFriendshipMember.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Models\\DetailedFriendshipMember.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Models\\DetailedFriendshipMember.cs",
@@ -878,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "DetailedConversationMemberDto.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\DetailedConversationMemberDto.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\DetailedConversationMemberDto.cs",
@@ -890,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Program.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Program.cs",
@@ -902,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "InvitationExistsModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\InvitationExistsModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\InvitationExistsModel.cs",
@@ -914,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ConversationMembersController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\ConversationMembersController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\ConversationMembersController.cs",
@@ -926,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ConversationsController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\ConversationsController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\ConversationsController.cs",
@@ -938,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ConversationMemberModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\ConversationMemberModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\ConversationMemberModel.cs",
@@ -950,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\PostController.cs",
@@ -962,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "FriendshipConfigs.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Data\\Config\\FriendshipConfigs.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Data\\Config\\FriendshipConfigs.cs",
@@ -974,19 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserApi.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
-              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\UserApi.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
-              "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:43:39.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ConversationData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\ConversationData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\ConversationData.cs",
@@ -998,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Data\\AppDbContext.cs",
@@ -1010,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "clsConversation.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsConversation.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsConversation.cs",
@@ -1022,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "clsOtp.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsOtp.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsOtp.cs",
@@ -1034,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "PostData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\PostData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\PostData.cs",
@@ -1046,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ConversationModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\ConversationModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\ConversationModel.cs",
@@ -1058,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "LikeData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\LikeData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\LikeData.cs",
@@ -1070,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "clsLike.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsLike.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsLike.cs",
@@ -1082,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LikeController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\LikeController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\LikeController.cs",
@@ -1090,11 +1105,12 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\LikeController.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAgwF0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:41:19.758Z"
+              "WhenOpened": "2025-04-30T14:41:19.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\appsettings.json",
               "RelativeDocumentMoniker": "SocialAppApi\\appsettings.json",
@@ -1106,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "message.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\User-Management\\message.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\User-Management\\message.cs",
@@ -1118,7 +1134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "PostsModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\PostsModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\PostsModel.cs",
@@ -1130,7 +1146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "OtpDto.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\OtpDto.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\OtpDto.cs",
@@ -1142,7 +1158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "clsPost.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsPost.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsPost.cs",
@@ -1154,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "LikeModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\LikeModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\LikeModel.cs",
@@ -1166,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\NotificationController.cs",
@@ -1178,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "NotificationDto.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\NotificationDto.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\NotificationDto.cs",
@@ -1190,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "NewNotificationModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\NewNotificationModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\NewNotificationModel.cs",
@@ -1202,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "NotificationsBehaviour.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\NotificationsBehaviour.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\NotificationsBehaviour.cs",
@@ -1214,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "clsNotification.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsNotification.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsNotification.cs",
@@ -1226,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "InvitationModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\InvitationModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\InvitationModel.cs",
@@ -1238,7 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "InvitationDto.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\InvitationDto.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\InvitationDto.cs",
@@ -1250,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "InvitationController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\InvitationController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\InvitationController.cs",
@@ -1262,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "AutoMapperConfigs.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Mapping\\AutoMapperConfigs.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Mapping\\AutoMapperConfigs.cs",
@@ -1274,7 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "CommentsController.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\CommentsController.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\CommentsController.cs",
@@ -1286,7 +1302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "NotificationData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\NotificationData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\NotificationData.cs",
@@ -1295,18 +1311,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwEgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T15:00:46.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
-              "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA6wCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:42:32.907Z"
             },
             {
               "$type": "Document",
@@ -1322,7 +1326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "CommentData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\CommentData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\CommentData.cs",
@@ -1346,7 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "clsInvitation.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsInvitation.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsInvitation.cs",
@@ -1358,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "InvitationData.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\InvitationData.cs",
               "RelativeDocumentMoniker": "SocialAppDataLayer\\InvitationData.cs",

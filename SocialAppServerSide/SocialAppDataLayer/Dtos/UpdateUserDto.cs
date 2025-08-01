@@ -21,6 +21,7 @@ namespace SocialAppDataLayer.Dtos
         public string Email { get; set; } = null!;
 
         public string Phone { get; set; } = null!;
+        public char Gender { get; set; }
 
         public UpdateUserDto()
         {
@@ -28,7 +29,7 @@ namespace SocialAppDataLayer.Dtos
         }
 
         public UpdateUserDto(string UserId,string FirstName , string LastName , string UserName ,DateTime DateOfBirth,
-            string Email , string Phone)
+            string Email , string Phone ,char Gender)
         {
             this.UserId = UserId;
             this.FirstName = FirstName;
@@ -37,6 +38,7 @@ namespace SocialAppDataLayer.Dtos
             this.DateOfBirth = DateOfBirth;
             this.Email = Email;
             this.Phone = Phone;
+            this.Gender = Gender;
         }
 
     }

@@ -2981,6 +2981,9 @@
           "phone": {
             "type": "string",
             "nullable": true
+          },
+          "gender": {
+            "type": "string"
           }
         },
         "additionalProperties": false

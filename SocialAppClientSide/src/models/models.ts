@@ -348,3 +348,15 @@ export interface conversationMember
     sentAt: string,
   }
 
+  export interface updateUserModel
+  {
+     userId: string|undefined,
+    firstName: string|undefined,
+    lastName: string|undefined,
+    userName: string|undefined,
+    dateOfBirth: string|undefined,
+    email: string|undefined,
+    phone: string|undefined,
+    gender:string|undefined
+  }
+

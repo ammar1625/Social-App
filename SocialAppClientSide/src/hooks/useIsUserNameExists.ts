@@ -7,7 +7,7 @@ function isUserNameExists(userName:string , userId:string|null)
     authClient.get(`/isExists-with-username?UserName=${userName}`).then(res=>res.data);
 }
 
-export function useIsUserNameExists(userName:string,userId:string)
+export function useIsUserNameExists(userName:string,userId?:string)
 {
     return useQuery({
         queryKey:["users",userName],

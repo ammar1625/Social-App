@@ -152,7 +152,7 @@ namespace SocialAppBusinessLayer
         public async Task<bool> UpdateUserCredentialsAsync()
         {
             return await UserData.UpdateUserCredentialsAsync(new UpdateUserDto(this.UserId , this.FirstName,this.LastName,
-                this.UserName,this.DateOfBirth , this.Email , this.Phone));
+                this.UserName,this.DateOfBirth , this.Email , this.Phone ,this.Gender));
         }
 
         public async Task<bool> UpdateProfilePicAsync()

@@ -99,7 +99,7 @@ namespace SocialAppApi.Controllers
                 string.IsNullOrEmpty(Model.LastName)|| string.IsNullOrWhiteSpace(Model.LastName)||
                 string.IsNullOrEmpty(Model.UserName)|| string.IsNullOrWhiteSpace(Model.UserName)||
                 Model.DateOfBirth > DateTime.Now || string.IsNullOrEmpty(Model.Email)|| string.IsNullOrWhiteSpace(Model.Email)||
-                string.IsNullOrEmpty(Model.Phone)||string.IsNullOrWhiteSpace(Model.Phone))
+                string.IsNullOrEmpty(Model.Phone)||string.IsNullOrWhiteSpace(Model.Phone)|| Model.Gender == null)
             {
                 return BadRequest("invalid data");
             }
@@ -117,6 +117,7 @@ namespace SocialAppApi.Controllers
             User.Email = Model.Email;
             User.Phone = Model.Phone;
             User.DateOfBirth = Model.DateOfBirth;
+            User.Gender = Model.Gender;
            
             if (await User.UpdateUserCredentialsAsync())
             {
