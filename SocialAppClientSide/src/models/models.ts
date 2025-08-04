@@ -62,7 +62,7 @@ export interface userToFetch
    
     email:string|undefined;
    
-    passWord:string|undefined;
+    //passWord:string|undefined;
    
     phone:string|undefined;
 

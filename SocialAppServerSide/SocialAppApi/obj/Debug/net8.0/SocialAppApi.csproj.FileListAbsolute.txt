@@ -152,3 +152,4 @@ C:\repos\SocialApp\SocialAppServerSide\SocialAppApi\bin\Debug\net8.0\MimeKit.dll
 C:\repos\SocialApp\SocialAppServerSide\SocialAppApi\bin\Debug\net8.0\NETCore.MailKit.dll
 C:\repos\SocialApp\SocialAppServerSide\SocialAppApi\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\repos\SocialApp\SocialAppServerSide\SocialAppApi\bin\Debug\net8.0\websocket-sharp-core.dll
+C:\repos\SocialApp\SocialAppServerSide\SocialAppApi\bin\Debug\net8.0\BCrypt.Net-Next.dll

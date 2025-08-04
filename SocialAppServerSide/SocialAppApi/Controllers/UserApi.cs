@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using SocialAppApi.Models;
 using SocialAppBusinessLayer;
+using SocialAppBusinessLayer.Utiles;
 using SocialAppDataLayer.Dtos;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -185,6 +186,27 @@ namespace SocialAppApi.Controllers
 
             List<UserDto> Users = await clsUser.GetUsersListAsync(NameFilter);
             return Ok(Users);
+        }
+
+        [HttpPost("verify-password")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult>VerifyPassWordAsync(VerifyPassWordModel Model)
+        {
+            if(Model==null||string.IsNullOrEmpty(Model.PassWord)||string.IsNullOrWhiteSpace(Model.PassWord))
+            {
+                return BadRequest("invalid data");
+            }
+
+            clsUser? User = await clsUser.GetUserByIdAsync(Model.UserId);
+            if (User == null) 
+            {
+                return NotFound($"user with id {Model.UserId} is not found");
+            }
+            //verify if the sent password equivalent to the stored password hash in the data base
+            bool IsValidPassWord = clsUtils.VerifyPassWord(Model.PassWord, User.PassWord);
+
+            return Ok(IsValidPassWord);
         }
 
     }

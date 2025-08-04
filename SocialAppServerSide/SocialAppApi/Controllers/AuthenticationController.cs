@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using SocialAppApi.Models;
 using SocialAppApi.Tokens;
 using SocialAppBusinessLayer;
+using SocialAppBusinessLayer.Utiles;
 using SocialAppDataLayer.Dtos;
 using SocialAppDataLayer.Models;
 
@@ -95,17 +96,29 @@ namespace SocialAppApi.Controllers
         [HttpPost("Login")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Login(LogInDto LoginCredentials)
+        public async Task<IActionResult> LoginAsync(LogInDto LoginCredentials)
         {
             if (string.IsNullOrEmpty(LoginCredentials.Email) || string.IsNullOrEmpty(LoginCredentials.PassWord) ||
                 string.IsNullOrWhiteSpace(LoginCredentials.Email) || string.IsNullOrWhiteSpace(LoginCredentials.PassWord))
             {
                 return BadRequest("invalid Data");
             }
-            bool IsLoggedIn = await clsUser.LogInAsync(LoginCredentials.Email, LoginCredentials.PassWord);
+            bool IsEmailAuthenticated = await clsUser.LogInAsync(LoginCredentials.Email);
 
-            //check if the user with the input login credencials is found
-            if (IsLoggedIn)
+            //get the user by his email
+            clsUser user = await clsUser.GetUserByEmailAsync(LoginCredentials.Email);
+
+
+            //verify the password 
+            bool IsPassWordVerified = clsUtils.VerifyPassWord(LoginCredentials.PassWord , user.PassWord);
+
+            //if (!IsPassWordVerified) 
+            //{
+            //    return Ok(new {IsFound = false , IsEmailVerified = false});
+            //}
+
+            //check if the user with the input email and password is found
+            if (IsEmailAuthenticated && IsPassWordVerified)
             {
 
 
@@ -113,8 +126,10 @@ namespace SocialAppApi.Controllers
                 int Code = TokensProvider.GenerateOtpCode();
                 Console.WriteLine(Code);
 
-                //get the user by his email
-                clsUser user = await clsUser.GetUserByEmailAsync(LoginCredentials.Email);
+               
+
+
+
                 if(user.IsEmailVerified)
                 {
                     //set all the existing otps for the current user as used
@@ -146,7 +161,7 @@ namespace SocialAppApi.Controllers
         [HttpPost("2falogin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> TwoFaLogin([FromBody] int? Code)
+        public async Task<IActionResult> TwoFaLogin([FromBody] int Code)
         {
             if (Code == null || Code <= 0)
                 return BadRequest("invalid data");

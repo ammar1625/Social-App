@@ -142,7 +142,7 @@ function UpdateCredentials()
             phone,
             userName,
             dateOfBirth,
-          ].some(f=>f.trim()!=="");
+          ].some(f=>f.trim()!==""); // returns true if at least one field is not empty
       
                if(!isValid)
                {
@@ -169,12 +169,7 @@ function UpdateCredentials()
        return isValid;
     }
                 
-            
-        
-
-        
-    
-
+      
     function spinner()
     {
         return <svg

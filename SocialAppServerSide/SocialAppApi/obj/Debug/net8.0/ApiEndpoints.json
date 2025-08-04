@@ -9,8 +9,8 @@
     "Parameters": [
       {
         "Name": "Code",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -135,7 +135,7 @@
   },
   {
     "ContainingType": "SocialAppApi.Controllers.AuthenticationController",
-    "Method": "Login",
+    "Method": "LoginAsync",
     "RelativePath": "api/Authentication/Login",
     "HttpMethod": "POST",
     "IsController": true,
@@ -1839,6 +1839,37 @@
         "Name": "NameFilter",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "SocialAppApi.Controllers.UserApi",
+    "Method": "VerifyPassWordAsync",
+    "RelativePath": "api/Users/verify-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Model",
+        "Type": "SocialAppApi.Models.VerifyPassWordModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

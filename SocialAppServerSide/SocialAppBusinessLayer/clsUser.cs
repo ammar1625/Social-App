@@ -1,4 +1,5 @@
-﻿using SocialAppDataLayer;
+﻿using SocialAppBusinessLayer.Utiles;
+using SocialAppDataLayer;
 using SocialAppDataLayer.Dtos;
 using SocialAppDataLayer.Mapping;
 using System;
@@ -114,14 +115,14 @@ namespace SocialAppBusinessLayer
         public  async Task<bool> AddNewUserAsync()
         {
             this.UserId = await UserData.AddNewUserAsync(new UserDto(" ",this.FirstName,this.LastName , this.UserName,this.DateOfBirth,
-                this.Email,this.PassWord,this.Phone,this.ProfilePic,this.IsEmailVerified, this.IsActive , this.Gender));
+                this.Email,clsUtils.HashPassWord(this.PassWord),this.Phone,this.ProfilePic,this.IsEmailVerified, this.IsActive , this.Gender));
 
             return (this.UserId != null);
         }
 
-        public static async Task<bool> LogInAsync(string Email, string PassWord)
+        public static async Task<bool> LogInAsync(string Email)
         {
-            return await UserData.LoginAsync(Email, PassWord);
+            return await UserData.LoginAsync(Email);
         }
 
         public static async Task<clsUser>? TwoFaLoginAsync(int? Code)
@@ -141,7 +142,7 @@ namespace SocialAppBusinessLayer
 
         public async Task<bool> ResetPassWordAsync()
         {
-            return await UserData.ResetPassWordAsync(this.UserId , this.PassWord);
+            return await UserData.ResetPassWordAsync(this.UserId , clsUtils.HashPassWord(this.PassWord));
         }
 
         public static async Task<bool> DeleteUserAsync(string Email , string PassWord)

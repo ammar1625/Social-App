@@ -106,17 +106,14 @@ namespace SocialAppDataLayer
             }
         }
 
-        public static async Task<bool> LoginAsync(string Email , string PassWord)
+        public static async Task<bool> LoginAsync(string Email)
         {
             bool IsFound = false;
             using (AppDbContext Context = new AppDbContext()) 
             {
                 try
                 {
-                   IsFound = await Context.Users.AnyAsync(u=> u.Email == Email
-                                                              && u.PassWord == PassWord
-                                                              //&& u.IsEmailVerified == true
-                                                              && u.IsActive == true);
+                   IsFound = await Context.Users.AnyAsync(u=> u.Email == Email && u.IsActive == true);
                 }
                 catch (Exception ex)
                 {

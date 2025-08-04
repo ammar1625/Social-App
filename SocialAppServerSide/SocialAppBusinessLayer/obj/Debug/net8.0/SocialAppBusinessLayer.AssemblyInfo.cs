@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocialAppBusinessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9efd15980f638ce53306fed28129c810edbb6cd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6c56012d1b408a11657c767e6c41114b64d473")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocialAppBusinessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocialAppBusinessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
