@@ -733,8 +733,8 @@
               "Title": "VerifyPassWordModel.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\VerifyPassWordModel.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Models\\VerifyPassWordModel.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\VerifyPassWordModel.cs*",
-              "RelativeToolTip": "SocialAppApi\\Models\\VerifyPassWordModel.cs*",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Models\\VerifyPassWordModel.cs",
+              "RelativeToolTip": "SocialAppApi\\Models\\VerifyPassWordModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T21:19:39.245Z",
@@ -750,8 +750,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Utiles\\clsUtils.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwBIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T19:26:11.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T19:26:11.132Z"
             },
             {
               "$type": "Document",
@@ -763,8 +762,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\MessageData.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAEBVwDIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:01:52.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:01:52.538Z"
             },
             {
               "$type": "Document",
@@ -776,8 +774,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\UserData.cs",
               "ViewState": "AgIAAHgAAAAAAAAAAAASwH4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:36:22.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T14:36:22.221Z"
             },
             {
               "$type": "Document",
@@ -789,8 +786,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsUser.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAADgv4IAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:33:07.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:33:07.437Z"
             },
             {
               "$type": "Document",
@@ -802,8 +798,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAYwHAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:18:05.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:18:05.53Z"
             },
             {
               "$type": "Document",
@@ -811,9 +806,9 @@
               "Title": "UserApi.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\UserApi.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs*",
-              "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs*",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAAANAAAAAnAAAAAAAAAA==",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
+              "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAYwMEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T14:43:39.746Z",
               "EditorCaption": ""
@@ -828,8 +823,7 @@
               "RelativeToolTip": "SocialAppApi\\websockets-service\\MessagesBehaviour.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwB4AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T16:54:23.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T16:54:23.078Z"
             },
             {
               "$type": "Document",
@@ -841,8 +835,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UpdateUserDto.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAtwCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:42:32.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T17:42:32.907Z"
             },
             {
               "$type": "Document",
@@ -854,8 +847,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\UserDto.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:06:29.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:06:29.817Z"
             },
             {
               "$type": "Document",
@@ -867,8 +859,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\MessageDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAABQwBcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:02:52.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:02:52.711Z"
             },
             {
               "$type": "Document",
@@ -880,8 +871,7 @@
               "RelativeToolTip": "SocialAppApi\\websockets-service\\WebSocketServerService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwBMAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:49:28.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:49:28.071Z"
             },
             {
               "$type": "Document",
@@ -893,8 +883,7 @@
               "RelativeToolTip": "SocialAppApi\\websockets-service\\InvitationsBehaviour.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvxMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:57:13.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:57:13.313Z"
             },
             {
               "$type": "Document",
@@ -906,8 +895,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\MessageController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAIBJwGMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:18:49.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:18:49.925Z"
             },
             {
               "$type": "Document",
@@ -919,8 +907,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\DetailedConversationMember.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAowBoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:21:49.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T14:21:49.581Z"
             },
             {
               "$type": "Document",
@@ -932,8 +919,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\MessageModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:22:11.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:22:11.546Z"
             },
             {
               "$type": "Document",
@@ -945,8 +931,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\DetailedFriendshipMember.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAIwCAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T16:25:44.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T16:25:44.869Z"
             },
             {
               "$type": "Document",
@@ -958,8 +943,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\DetailedConversationMemberDto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA0wBsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:22:08.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T14:22:08.887Z"
             },
             {
               "$type": "Document",
@@ -971,8 +955,7 @@
               "RelativeToolTip": "SocialAppApi\\Program.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAIBJwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:11:11.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:11:11.154Z"
             },
             {
               "$type": "Document",
@@ -984,8 +967,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\InvitationExistsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T14:03:37.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T14:03:37.678Z"
             },
             {
               "$type": "Document",
@@ -997,8 +979,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\ConversationMembersController.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAowE4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:15:26.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:15:26.843Z"
             },
             {
               "$type": "Document",
@@ -1010,8 +991,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\ConversationsController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAQwD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:44:45.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:44:45.12Z"
             },
             {
               "$type": "Document",
@@ -1023,8 +1003,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ConversationMemberModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:59:32.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:59:32.281Z"
             },
             {
               "$type": "Document",
@@ -1036,8 +1015,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\PostController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAkwEsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:44:58.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:44:58.091Z"
             },
             {
               "$type": "Document",
@@ -1049,8 +1027,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\FriendshipConfigs.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:14:45.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:14:45.906Z"
             },
             {
               "$type": "Document",
@@ -1062,8 +1039,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\ConversationData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:32:14.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:32:14.535Z"
             },
             {
               "$type": "Document",
@@ -1075,8 +1051,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAYwGUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:14:52.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:14:52.074Z"
             },
             {
               "$type": "Document",
@@ -1088,8 +1063,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsConversation.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:35:28.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:35:28.569Z"
             },
             {
               "$type": "Document",
@@ -1101,8 +1075,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsOtp.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:18:40.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:18:40.416Z"
             },
             {
               "$type": "Document",
@@ -1114,8 +1087,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\PostData.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAowEMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:25:57.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:25:57.095Z"
             },
             {
               "$type": "Document",
@@ -1127,8 +1099,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ConversationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T14:19:12.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T14:19:12.078Z"
             },
             {
               "$type": "Document",
@@ -1140,8 +1111,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\LikeData.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAgwG0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:26:20.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:26:20.908Z"
             },
             {
               "$type": "Document",
@@ -1153,8 +1123,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsLike.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAYwE4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:31:14.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:31:14.465Z"
             },
             {
               "$type": "Document",
@@ -1166,8 +1135,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\LikeController.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAgwF0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:41:19.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:41:19.758Z"
             },
             {
               "$type": "Document",
@@ -1179,8 +1147,7 @@
               "RelativeToolTip": "SocialAppApi\\appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAABRwA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-13T15:03:02.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T15:03:02.501Z"
             },
             {
               "$type": "Document",
@@ -1192,8 +1159,7 @@
               "RelativeToolTip": "SocialAppApi\\User-Management\\message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:58:22.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:58:22.881Z"
             },
             {
               "$type": "Document",
@@ -1205,8 +1171,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\PostsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T20:28:59.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T20:28:59.066Z"
             },
             {
               "$type": "Document",
@@ -1218,8 +1183,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\OtpDto.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:15:22.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:15:22.915Z"
             },
             {
               "$type": "Document",
@@ -1231,8 +1195,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsPost.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAA4wEUAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:32:34.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:32:34.306Z"
             },
             {
               "$type": "Document",
@@ -1244,8 +1207,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\LikeModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:51:34.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:51:34.005Z"
             },
             {
               "$type": "Document",
@@ -1257,8 +1219,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\NotificationController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowDIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:53:50.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T05:53:50.681Z"
             },
             {
               "$type": "Document",
@@ -1270,8 +1231,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\NotificationDto.cs",
               "ViewState": "AgIAABoAAAAAAAAAAABQwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:40:19.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:40:19.931Z"
             },
             {
               "$type": "Document",
@@ -1283,8 +1243,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\NewNotificationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:24:53.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T06:24:53.207Z"
             },
             {
               "$type": "Document",
@@ -1296,8 +1255,7 @@
               "RelativeToolTip": "SocialAppApi\\websockets-service\\NotificationsBehaviour.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:52:48.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:52:48.531Z"
             },
             {
               "$type": "Document",
@@ -1309,8 +1267,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsNotification.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:46:04.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:46:04.022Z"
             },
             {
               "$type": "Document",
@@ -1322,8 +1279,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\InvitationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:36:39.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:36:39.401Z"
             },
             {
               "$type": "Document",
@@ -1335,8 +1291,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\InvitationDto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:09:01.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:09:01.69Z"
             },
             {
               "$type": "Document",
@@ -1348,8 +1303,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\InvitationController.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAYwIIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:23:36.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:23:36.988Z"
             },
             {
               "$type": "Document",
@@ -1361,8 +1315,7 @@
               "RelativeToolTip": "SocialAppApi\\Mapping\\AutoMapperConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:10:25.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:10:25.827Z"
             },
             {
               "$type": "Document",
@@ -1374,8 +1327,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\CommentsController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwCYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:34:51.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:34:51.189Z"
             },
             {
               "$type": "Document",
@@ -1387,8 +1339,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\NotificationData.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwEgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:00:46.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T15:00:46.898Z"
             },
             {
               "$type": "Document",
@@ -1400,8 +1351,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Invitation.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAUwAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:04:08.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:04:08.922Z"
             },
             {
               "$type": "Document",
@@ -1413,8 +1363,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\CommentData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:35:42.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:35:42.8Z"
             },
             {
               "$type": "Document",
@@ -1426,8 +1375,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\FriendshipData.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAgwD0AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:27:03.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:27:03.41Z"
             },
             {
               "$type": "Document",
@@ -1439,8 +1387,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsInvitation.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAADwv04AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:12:25.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:12:25.294Z"
             },
             {
               "$type": "Document",
@@ -1452,8 +1399,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\InvitationData.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAcwG4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:07:22.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:07:22.846Z"
             },
             {
               "$type": "Document",
@@ -1465,8 +1411,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\FriendshipsController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:39:28.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:39:28.651Z"
             },
             {
               "$type": "Document",
@@ -1478,8 +1423,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsFriendship.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAgwDcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:29:03.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:29:03.679Z"
             },
             {
               "$type": "Document",
@@ -1491,8 +1435,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\FriendshipExists.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:50:37.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T09:50:37.762Z"
             },
             {
               "$type": "Document",
@@ -1504,8 +1447,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\FriendshipExistsModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T10:02:37.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T10:02:37.651Z"
             },
             {
               "$type": "Document",
@@ -1517,8 +1459,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\FriendshipExistsConfigs.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBZwA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T09:52:15.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T09:52:15.617Z"
             },
             {
               "$type": "Document",
@@ -1530,8 +1471,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\ChangePassWordTokenConfigs.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:38:55.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:38:55.681Z"
             },
             {
               "$type": "Document",
@@ -1543,8 +1483,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\CommentModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:53:10.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:53:10.163Z"
             },
             {
               "$type": "Document",
@@ -1556,8 +1495,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\DetailedFriendshipMemberDto.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwCAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T16:27:39.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T16:27:39.61Z"
             },
             {
               "$type": "Document",
@@ -1569,8 +1507,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\FriendshipMemberModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T16:04:00.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T16:04:00.861Z"
             },
             {
               "$type": "Document",
@@ -1582,8 +1519,7 @@
               "RelativeToolTip": "SocialAppApi\\Controllers\\FriendshipMembersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:34:24.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:34:24.268Z"
             },
             {
               "$type": "Document",
@@ -1595,8 +1531,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ChangeInvitationStatusModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:58:29.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T15:58:29.595Z"
             },
             {
               "$type": "Document",
@@ -1608,8 +1543,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\DetailedNotificationDto.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:23:24.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T07:23:24.942Z"
             },
             {
               "$type": "Document",
@@ -1621,8 +1555,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\DetailedNotification.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:20:17.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T07:20:17.959Z"
             },
             {
               "$type": "Document",
@@ -1634,8 +1567,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\User.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAowCUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:10:32.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:10:32.519Z"
             },
             {
               "$type": "Document",
@@ -1647,8 +1579,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\UserResponseDto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAcwBoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:39:26.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T14:39:26.874Z"
             },
             {
               "$type": "Document",
@@ -1660,8 +1591,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\UserModel.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwBgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:21:23.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T14:21:23.128Z"
             },
             {
               "$type": "Document",
@@ -1673,8 +1603,7 @@
               "RelativeToolTip": "SocialAppApi\\Tokens\\TokensProvider.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA6wDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:13:19.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T14:13:19.247Z"
             },
             {
               "$type": "Document",
@@ -1686,8 +1615,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ResetPasswordModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T17:31:18.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T17:31:18.499Z"
             },
             {
               "$type": "Document",
@@ -1699,8 +1627,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\UserConfigs.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAiwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:17:16.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:17:16.081Z"
             },
             {
               "$type": "Document",
@@ -1712,8 +1639,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\LogInDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:49:35.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:49:35.087Z"
             },
             {
               "$type": "Document",
@@ -1725,8 +1651,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsComment.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwEUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:26:14.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:26:14.319Z"
             },
             {
               "$type": "Document",
@@ -1738,8 +1663,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\CommentDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:26:56.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:26:56.872Z"
             },
             {
               "$type": "Document",
@@ -1751,8 +1675,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\CommentBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:29:30.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:29:30.539Z"
             },
             {
               "$type": "Document",
@@ -1764,8 +1687,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\CommentDto.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:25:13.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T13:25:13.179Z"
             },
             {
               "$type": "Document",
@@ -1777,8 +1699,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\ConversationMemberData.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAiwFIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:06:54.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:06:54.928Z"
             },
             {
               "$type": "Document",
@@ -1790,8 +1711,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsConversationMember.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAwEEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:11:50.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:11:50.99Z"
             },
             {
               "$type": "Document",
@@ -1803,8 +1723,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\ConversationMemberDto.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAuwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:09:00Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:09:00Z"
             },
             {
               "$type": "Document",
@@ -1816,8 +1735,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABRwAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:02:38.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:02:38.628Z"
             },
             {
               "$type": "Document",
@@ -1829,8 +1747,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\DetailedConversationMemberConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:26:46.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T14:26:46.612Z"
             },
             {
               "$type": "Document",
@@ -1842,8 +1759,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\DetailedConversationMemberDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T14:25:06.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T14:25:06.285Z"
             },
             {
               "$type": "Document",
@@ -1855,8 +1771,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\ConversationMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:03:13.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:03:13.528Z"
             },
             {
               "$type": "Document",
@@ -1868,8 +1783,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Conversation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:02:54.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:02:54.864Z"
             },
             {
               "$type": "Document",
@@ -1881,8 +1795,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\MapperConfigBusiness.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:32:11.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:32:11.692Z"
             },
             {
               "$type": "Document",
@@ -1894,8 +1807,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\ConversationMemberBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:14:12.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:14:12.045Z"
             },
             {
               "$type": "Document",
@@ -1907,8 +1819,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\ConversationMemberDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:10:35.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T14:10:35.386Z"
             },
             {
               "$type": "Document",
@@ -1920,8 +1831,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\ConversationBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:37:26.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:37:26.905Z"
             },
             {
               "$type": "Document",
@@ -1933,8 +1843,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\ConversationDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:34:37.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:34:37.49Z"
             },
             {
               "$type": "Document",
@@ -1946,8 +1855,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\ConversationDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T13:32:33.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T13:32:33.417Z"
             },
             {
               "$type": "Document",
@@ -1959,8 +1867,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\FriendshipMemberData.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAASwEoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:24:16.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:24:16.373Z"
             },
             {
               "$type": "Document",
@@ -1972,8 +1879,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\ConversationMemberConfigs.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:25:09.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:25:09.287Z"
             },
             {
               "$type": "Document",
@@ -1985,8 +1891,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\DetailedFriendshipMemberConfigs.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvxAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T16:32:02.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T16:32:02.842Z"
             },
             {
               "$type": "Document",
@@ -1998,8 +1903,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsFriendshipMember.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAqwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:28:44.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:28:44.86Z"
             },
             {
               "$type": "Document",
@@ -2011,8 +1915,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\FriendShipMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:03:56.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:03:56.764Z"
             },
             {
               "$type": "Document",
@@ -2024,8 +1927,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Friendship.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:03:44.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:03:44.542Z"
             },
             {
               "$type": "Document",
@@ -2037,8 +1939,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\FriendshipMemberBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:32:52.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:32:52.834Z"
             },
             {
               "$type": "Document",
@@ -2050,8 +1951,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\FriendshipMemberDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:26:50.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:26:50.788Z"
             },
             {
               "$type": "Document",
@@ -2063,8 +1963,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\FriendshipMemberDto.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAiwB0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:24:51.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:24:51.774Z"
             },
             {
               "$type": "Document",
@@ -2076,8 +1975,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\FriendshipDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:27:28.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:27:28.546Z"
             },
             {
               "$type": "Document",
@@ -2089,8 +1987,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\FriendshipDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:31:17.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:31:17.935Z"
             },
             {
               "$type": "Document",
@@ -2102,8 +1999,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\FriendshipBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:32:21.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:32:21.681Z"
             },
             {
               "$type": "Document",
@@ -2115,8 +2011,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\InvitationConfigs.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAYwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:07:49.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:07:49.752Z"
             },
             {
               "$type": "Document",
@@ -2128,8 +2023,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\InvitationDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:15:42.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:15:42.901Z"
             },
             {
               "$type": "Document",
@@ -2141,8 +2035,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\InvitationBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:16:54.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:16:54.616Z"
             },
             {
               "$type": "Document",
@@ -2154,8 +2047,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\LikeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:27:31.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:27:31.003Z"
             },
             {
               "$type": "Document",
@@ -2167,8 +2059,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\InvitationStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:04:43.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:04:43.968Z"
             },
             {
               "$type": "Document",
@@ -2180,8 +2071,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\LikeBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:34:07.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:34:07.09Z"
             },
             {
               "$type": "Document",
@@ -2193,8 +2083,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\DeleteLikeModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:20:15.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:20:15.417Z"
             },
             {
               "$type": "Document",
@@ -2206,8 +2095,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\LikeDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:29:28.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:29:28.4Z"
             },
             {
               "$type": "Document",
@@ -2219,8 +2107,7 @@
               "RelativeToolTip": "..\\..\\AuthenticationDemo\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAJYAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:57:57.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T15:57:57.764Z"
             },
             {
               "$type": "Document",
@@ -2232,8 +2119,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Like.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:04:56.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:04:56.326Z"
             },
             {
               "$type": "Document",
@@ -2245,8 +2131,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsMessage.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAiwDEAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:08:32.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:08:32.433Z"
             },
             {
               "$type": "Document",
@@ -2258,8 +2143,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Message.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:05:04.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:05:04.943Z"
             },
             {
               "$type": "Document",
@@ -2271,8 +2155,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\MessageBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:10:22.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:10:22.283Z"
             },
             {
               "$type": "Document",
@@ -2284,8 +2167,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\MessageDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T14:06:40.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T14:06:40.359Z"
             },
             {
               "$type": "Document",
@@ -2297,8 +2179,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\UnreadNotificationsCountConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:21:58.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T08:21:58.11Z"
             },
             {
               "$type": "Document",
@@ -2310,8 +2191,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\UnreadNotificationsCount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:19:06.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T08:19:06.38Z"
             },
             {
               "$type": "Document",
@@ -2323,8 +2203,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\DetailedNotificationConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:27:20.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T07:27:20.612Z"
             },
             {
               "$type": "Document",
@@ -2336,8 +2215,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\PostsWithUserAndDetaisConfigs.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAhwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:56:43.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:56:43.443Z"
             },
             {
               "$type": "Document",
@@ -2349,8 +2227,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\PostForCurrentUserConfigs.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBZwA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:18:22.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:18:22.092Z"
             },
             {
               "$type": "Document",
@@ -2362,8 +2239,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\DetailedNotificationDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:24:51.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T07:24:51.912Z"
             },
             {
               "$type": "Document",
@@ -2375,8 +2251,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABRwAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:05:21.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:05:21.425Z"
             },
             {
               "$type": "Document",
@@ -2388,8 +2263,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\AddPostModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T14:36:59.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T14:36:59.011Z"
             },
             {
               "$type": "Document",
@@ -2401,8 +2275,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\NotificationBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T06:02:19.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T06:02:19.231Z"
             },
             {
               "$type": "Document",
@@ -2414,8 +2287,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\NotificationDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:59:45.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T05:59:45.242Z"
             },
             {
               "$type": "Document",
@@ -2427,8 +2299,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\NotificationTypeDto.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowBUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:39:10.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:39:10.855Z"
             },
             {
               "$type": "Document",
@@ -2440,8 +2311,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsNotificationType.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwB0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:46:39.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:46:39.848Z"
             },
             {
               "$type": "Document",
@@ -2453,8 +2323,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\NotificationType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:05:58.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:05:58.987Z"
             },
             {
               "$type": "Document",
@@ -2466,8 +2335,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\PostForCurrentUserMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:17:07.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:17:07.294Z"
             },
             {
               "$type": "Document",
@@ -2479,8 +2347,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\PostForCurrentUserDto.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAIwC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:16:14.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:16:14.14Z"
             },
             {
               "$type": "Document",
@@ -2492,8 +2359,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\PostForCurrentUser.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA2wCoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:15:26.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:15:26.514Z"
             },
             {
               "$type": "Document",
@@ -2505,8 +2371,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\PostWithUserAndDetailsDto.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:28:12.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:28:12.308Z"
             },
             {
               "$type": "Document",
@@ -2518,8 +2383,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\PostWithUserAndDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAEBVwAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:25:34.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:25:34.164Z"
             },
             {
               "$type": "Document",
@@ -2531,8 +2395,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\PostsDetailsDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:41:43.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:41:43.061Z"
             },
             {
               "$type": "Document",
@@ -2544,8 +2407,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\PostConfigs.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAADwvxsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:34:51.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:34:51.76Z"
             },
             {
               "$type": "Document",
@@ -2557,8 +2419,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Post.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:10:03.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:10:03.292Z"
             },
             {
               "$type": "Document",
@@ -2570,8 +2431,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\PostDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:27:14.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:27:14.559Z"
             },
             {
               "$type": "Document",
@@ -2583,8 +2443,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\PostBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:35:45.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:35:45.44Z"
             },
             {
               "$type": "Document",
@@ -2596,8 +2455,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\PostDataMappingProfile.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBZwA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:26:53.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:26:53.397Z"
             },
             {
               "$type": "Document",
@@ -2609,8 +2467,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\UpdateProfilePicModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:48:45.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T16:48:45.984Z"
             },
             {
               "$type": "Document",
@@ -2622,8 +2479,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\DeleteUserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T19:11:25.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T19:11:25.28Z"
             },
             {
               "$type": "Document",
@@ -2635,8 +2491,7 @@
               "RelativeToolTip": "SocialAppApi\\Properties\\launchSettings.json",
               "ViewState": "AgIAABsAAAAAAAAAAAAwwCkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T16:26:38.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T16:26:38.297Z"
             },
             {
               "$type": "Document",
@@ -2648,8 +2503,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ChangePasswordModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:51:43.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T18:51:43.674Z"
             },
             {
               "$type": "Document",
@@ -2661,8 +2515,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsRefreshToken.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAYwEMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:55:31.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:55:31.54Z"
             },
             {
               "$type": "Document",
@@ -2674,8 +2527,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\RefreshTokenData.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAqwD4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:25:04.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:25:04.536Z"
             },
             {
               "$type": "Document",
@@ -2687,8 +2539,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\RefreshTokenModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T14:11:53.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T14:11:53.577Z"
             },
             {
               "$type": "Document",
@@ -2700,8 +2551,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\ChangePasswordTokenData.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAADwvywAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:28:04.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T14:28:04.08Z"
             },
             {
               "$type": "Document",
@@ -2713,8 +2563,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\clsChangePasswordToken.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAxwDsAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:33:56.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T14:33:56.266Z"
             },
             {
               "$type": "Document",
@@ -2726,8 +2575,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\ChangePassWordToken.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:02:26.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:02:26.352Z"
             },
             {
               "$type": "Document",
@@ -2739,8 +2587,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-10T14:31:22.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:31:22.341Z"
             },
             {
               "$type": "Document",
@@ -2752,8 +2599,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\ChangePassWordTokenDto.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:28:33.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T14:28:33.902Z"
             },
             {
               "$type": "Document",
@@ -2765,8 +2611,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\ChangePasswordTokenBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:44:33.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T14:44:33.828Z"
             },
             {
               "$type": "Document",
@@ -2778,8 +2623,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\ChangePassWordTokenMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T14:32:27.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T14:32:27.734Z"
             },
             {
               "$type": "Document",
@@ -2791,8 +2635,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\OtpData.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAwCkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:14:35.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:14:35.447Z"
             },
             {
               "$type": "Document",
@@ -2804,8 +2647,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\Otp.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwBMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:09:55.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:09:55.667Z"
             },
             {
               "$type": "Document",
@@ -2817,8 +2659,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Models\\RefreshToken.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAcwBEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:10:25.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:10:25.66Z"
             },
             {
               "$type": "Document",
@@ -2830,8 +2671,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Dtos\\RefreshTokenDto.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:25:31.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:25:31.767Z"
             },
             {
               "$type": "Document",
@@ -2843,8 +2683,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\RefreshTokenDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:02:21.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T15:02:21.468Z"
             },
             {
               "$type": "Document",
@@ -2856,8 +2695,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\OtpBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:53:06.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:53:06.022Z"
             },
             {
               "$type": "Document",
@@ -2869,8 +2707,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\OtpDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:24:54.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:24:54.024Z"
             },
             {
               "$type": "Document",
@@ -2882,8 +2719,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\MapperConfigData.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBZwAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:19:30.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:19:30.994Z"
             },
             {
               "$type": "Document",
@@ -2895,8 +2731,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\CommentConfigs.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAtwCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:34:33.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:34:33.105Z"
             },
             {
               "$type": "Document",
@@ -2908,8 +2743,7 @@
               "RelativeToolTip": "SocialAppApi\\SocialAppApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-11T19:07:50.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T19:07:50.27Z"
             },
             {
               "$type": "Document",
@@ -2921,8 +2755,7 @@
               "RelativeToolTip": "SocialAppBusinessLayer\\Mapping\\UserBusinessMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:29:53.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:29:53.822Z"
             },
             {
               "$type": "Document",
@@ -2934,8 +2767,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Mapping\\UserDataMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:16:40.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T14:16:40.095Z"
             },
             {
               "$type": "Document",
@@ -2947,8 +2779,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\ConversationConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:31:10.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:31:10.409Z"
             },
             {
               "$type": "Document",
@@ -2960,8 +2791,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\FriendShipMemberConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:19:37.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:19:37.688Z"
             },
             {
               "$type": "Document",
@@ -2973,8 +2803,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\InvitationStatusConfigs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:02:14.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:02:14.86Z"
             },
             {
               "$type": "Document",
@@ -2986,8 +2815,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\LikeConfigs.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T13:56:54.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T13:56:54.764Z"
             },
             {
               "$type": "Document",
@@ -2999,8 +2827,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\MessageConfigs.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwB4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T13:50:36.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T13:50:36.231Z"
             },
             {
               "$type": "Document",
@@ -3012,8 +2839,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\NotificationTypeConfigs.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:50:04.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:50:04.889Z"
             },
             {
               "$type": "Document",
@@ -3025,8 +2851,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\NotificationConfigs.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAqwB8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:44:23.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:44:23.555Z"
             },
             {
               "$type": "Document",
@@ -3038,8 +2863,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\OtpConfigs.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:39:18.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:39:18.779Z"
             },
             {
               "$type": "Document",
@@ -3051,8 +2875,7 @@
               "RelativeToolTip": "SocialAppDataLayer\\Data\\Config\\RefreshTokenConfigs.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwBcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:29:13.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T05:29:13.337Z"
             }
           ]
         }

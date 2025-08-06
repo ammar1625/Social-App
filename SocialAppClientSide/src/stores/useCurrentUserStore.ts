@@ -15,7 +15,6 @@ export const userCurrentUserStore = create<currentUserStore>((set)=>({
         userName:"",
         email:"",
         phone:"",
-        passWord:"",
         dateOfBirth:"",
         profilePic:"",
         isActive:false,

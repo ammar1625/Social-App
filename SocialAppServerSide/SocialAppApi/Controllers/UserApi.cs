@@ -206,7 +206,7 @@ namespace SocialAppApi.Controllers
             //verify if the sent password equivalent to the stored password hash in the data base
             bool IsValidPassWord = clsUtils.VerifyPassWord(Model.PassWord, User.PassWord);
 
-            return Ok(IsValidPassWord);
+            return Ok(new {IsValid =  IsValidPassWord });
         }
 
     }

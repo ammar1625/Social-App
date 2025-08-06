@@ -360,3 +360,13 @@ export interface conversationMember
     gender:string|undefined
   }
 
+  export interface validatePassWordModel
+  {
+     userId:string;
+     passWord:string;
+  }
+
+  export interface validatePassWordResponseModel
+  {
+     isValid:boolean;
+  }

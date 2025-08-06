@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocialAppApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6c56012d1b408a11657c767e6c41114b64d473")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a88f39ac35fd05f96176a06f68f2a5d2add7ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocialAppApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocialAppApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
