@@ -370,3 +370,16 @@ export interface conversationMember
   {
      isValid:boolean;
   }
+
+  export interface resetPassWordModel
+  {
+        newPassWord:string;
+        email:string;
+
+  }
+
+  export interface changePassWordResponseModel
+  {
+        status:boolean;
+        user:user;
+  }

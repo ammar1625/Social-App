@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { useValidatePassWord } from "../hooks/useValidatePassWord";
 import { userCurrentUserStore } from "../stores/useCurrentUserStore";
+import { useChangePassWord } from "../hooks/useChangePassWord";
 
 function ChangePassWord()
 {
     const {user} = userCurrentUserStore();
-    const {data:validatePassWordData , mutateAsync:mutateValidatePassWordAsync,isPending} = useValidatePassWord();
+    const {data:validatePassWordData , mutateAsync:mutateValidatePassWordAsync} = useValidatePassWord();
+    const {data:changePassWordData , mutate:mutateChangePassWord,isPending} = useChangePassWord();
 
     const [currentPassWord , setCurrentPassWord] = useState("");
     const [newPassWord,setNewPassWord] = useState("");
@@ -20,7 +22,7 @@ function ChangePassWord()
     const timeOutIdref = useRef<number|null>(null);
     const hasTimeOutRef  = useRef<boolean>(false);
 
-    function verifyCurrentPassWord()
+    function unverifiedCurrentPassWord()
     {
        
             if(currentPassWordRef.current)
@@ -28,7 +30,7 @@ function ChangePassWord()
                 currentPassWordRef.current.classList.add("invalid-input-field");
             }
 
-            setMessage("you must enter your current password correctly");
+            setMessage("current password does not match");
 
             if(messageRef.current)
             {
@@ -55,7 +57,7 @@ function ChangePassWord()
         
     }
 
-    function comfirmPassWord()
+    function uncomfirmedPassWord()
     {
         if(messageRef.current)
         {
@@ -122,24 +124,109 @@ function ChangePassWord()
         });
     }
 
+   async  function handlePassWordChangeAsync()
+    {
+        if(changePassWordData?.status) // if the password has been changed successfully
+            {
+                if( messageRef.current)
+                {
+                    messageRef.current.classList.add("msg");
+                    messageRef.current.classList.remove("invisible");
+                }
+
+                setMessage("password has been changed successfully");
+
+                if(hasTimeOutRef.current)
+                {
+                    if(timeOutIdref.current)
+                    {
+                        clearTimeout(timeOutIdref.current);
+                        hasTimeOutRef.current = false;
+                    }
+                }
+
+                timeOutIdref.current =  setTimeout(() => {
+                    if(messageRef.current)
+                    {
+                        messageRef.current.classList.add("invisible");
+                        messageRef.current.classList.remove("msg");
+                        hasTimeOutRef.current = true;
+                    }
+                }, 3500);
+
+            }
+            else //in case password changing does not went as expected
+            {
+                if(messageRef.current)
+                {
+                    messageRef.current.classList.remove("invisible");
+                }
+                setMessage("something went wrong");
+
+                if(hasTimeOutRef.current)
+                {
+                    if(timeOutIdref.current)
+                    {
+                        clearTimeout(timeOutIdref.current);
+                        hasTimeOutRef.current = false;
+                    }
+                }
+
+                timeOutIdref.current = setTimeout(() => {
+                    if(messageRef.current)
+                    {
+                        messageRef.current.classList.add("invisible");
+                        hasTimeOutRef.current = true;
+                    }
+                }, 3500);
+            }
+    }
+
     useEffect(()=>{
         if(validatePassWordData)
         {
-            if(!validatePassWordData?.isValid) //
+            if(!validatePassWordData?.isValid) // incase the current password does not match
                 {
-                    verifyCurrentPassWord();
+                    unverifiedCurrentPassWord();
                 }
-            else if(newPassWord !== comfirmedPassWord)//
+            else if(newPassWord !== comfirmedPassWord)// in case the new password is not comfirmed correctlly
             {
                 if(currentPassWordRef.current)
                 {
                     currentPassWordRef.current.classList.remove("invalid-input-field");
                 }
-                    comfirmPassWord();
+                    uncomfirmedPassWord();
+            }
+            else // change the password process
+            {
+                if(ComfirmPassWordRef.current)
+                {
+                    ComfirmPassWordRef.current.classList.remove("invalid-input-field");
+                }
+
+                mutateChangePassWord({
+                    email:user.email?user.email:"",
+                    newPassWord:newPassWord
+                })
             }
         }
         
     },[validatePassWordData]);
+
+
+    //handle password change after effect
+    useEffect(()=>{
+        if(changePassWordData)
+        {
+            const runAsync = async ()=>{
+                await handlePassWordChangeAsync();
+                clearFields();
+            }
+
+            runAsync();
+        }
+
+    },[changePassWordData]);
 
     return <div className="change-password-ctr">
             <div className="login-form-ctr">

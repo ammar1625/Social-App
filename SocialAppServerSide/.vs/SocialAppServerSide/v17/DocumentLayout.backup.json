@@ -737,8 +737,7 @@
               "RelativeToolTip": "SocialAppApi\\Models\\VerifyPassWordModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T21:19:39.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T21:19:39.245Z"
             },
             {
               "$type": "Document",
@@ -808,7 +807,7 @@
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\UserApi.cs",
               "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
               "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAYwMEAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T14:43:39.746Z",
               "EditorCaption": ""
@@ -2503,7 +2502,8 @@
               "RelativeToolTip": "SocialAppApi\\Models\\ChangePasswordModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:51:43.674Z"
+              "WhenOpened": "2025-04-21T18:51:43.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
