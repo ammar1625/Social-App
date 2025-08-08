@@ -1,8 +1,39 @@
 
+
 function CloseAccount()
 {
+    
     return <div className="close-account-ctr">
+         
+      <div className="close-account-dialog invisible" >
+            {/* Message */}
+            <p className="close-account-dialog-message">
+            Do you want to close your account?
+            </p>
+
+            {/* Buttons */}
+            <div className="close-account-dialog-btns-ctr">
+                {/* Cancel Button */}
+                <button
+                    type="button"
+                    className="close-account-dialog-cancel-btn"
+                    
+                >
+                    Cancel
+                </button>
+
+                {/* Confirm Button - Facebook Blue */}
+                <button
+                    type="button"
+                    className="close-account-dialog-comfirm-btn"
+                    
+                >
+                    Confirm
+                </button>
+            </div>
+      </div>
                     <div className="login-form-ctr">
+                   
                     <p className="error-msg">something went wrong</p>
             
                         <form  className="login-form">

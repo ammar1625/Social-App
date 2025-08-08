@@ -18,6 +18,7 @@ function ChangePassWord()
     const currentPassWordRef = useRef<HTMLInputElement>(null);
     const newPassWordRef = useRef<HTMLInputElement>(null);
     const ComfirmPassWordRef = useRef<HTMLInputElement>(null);
+    
 
     const timeOutIdref = useRef<number|null>(null);
     const hasTimeOutRef  = useRef<boolean>(false);
@@ -229,7 +230,11 @@ function ChangePassWord()
     },[changePassWordData]);
 
     return <div className="change-password-ctr">
+
+                   
+    {/* </div> */}
             <div className="login-form-ctr">
+
             <p ref={messageRef} className="error-msg invisible">{message}</p>
     
                  <form  className="login-form"

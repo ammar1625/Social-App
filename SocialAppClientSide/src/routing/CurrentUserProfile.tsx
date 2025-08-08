@@ -255,7 +255,10 @@ function CurrentUserProfile()
                 <input id= "pic-id" type="file" accept="image/*" className="hidden"/>
                 <label htmlFor="pic-id" className="change-pic-icon"><FaCamera size={19} color="gray"/></label>
             </div>
-
+            <div className="change-pic-dialog invisible">
+                <button className="save-button">save</button>
+                <button className="cancel-button">cancel</button>
+            </div>
             <div className="friends-ctr">
                 <div className="friends-count-ctr">
                     <p className="friends-title">Friends</p>

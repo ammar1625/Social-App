@@ -173,3 +173,23 @@
     hover:bg-stone-300 
     text-[90%] font-medium text-zinc-700 cursor-pointer
   }
+
+  /* this part is for current user profile  */
+  .change-pic-dialog
+  {
+     @apply w-2/6 flex justify-around items-center 
+  }
+
+  .save-button
+  {
+     @apply bg-blue-500 text-white text-[95%] font-medium px-[7%] py-[2%] w-[32%]  transition-all duration-300
+              rounded-md focus:ring-2  focus:ring-[#1877f2] focus:ring-offset-2 hover:cursor-pointer hover:opacity-80
+              flex justify-center items-center
+  }
+
+  .cancel-button
+  {
+     @apply bg-gray-300 text-gray-800 text-[95%] font-medium px-[7%] py-[2%] w-[32%] transition-all duration-300
+     hover:bg-gray-400 focus:ring-2  focus:ring-gray-400 focus:ring-offset-2 rounded-md hover:cursor-pointer
+     flex justify-center items-center
+  }

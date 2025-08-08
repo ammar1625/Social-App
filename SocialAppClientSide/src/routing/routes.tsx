@@ -12,25 +12,26 @@ import CloseAccount from "../components/CloseAccount";
 import CurrentUserProfile from "./CurrentUserProfile";
 import UserProfile from "./UserProfile";
 import Conversation from "./Conversation";
+import ErrorElement from "../components/ErrorElement";
 
 
 const router = createBrowserRouter([
-    {path:'/',element:<LoginScreen/>},
-    {path:'/create-account',element:<CreateAccount/>},
-    {path:'/forgot-password',element:<ForgotPassword/>},
-    {path:'/reset-password',element:<ResetPassword/>},
-    {path:'/current-user',element:<CurrentUserProfile/>},
-    {path:'/user',element:<UserProfile/>},
-    {path:"/conversation" , element:<Conversation/>},
-    {path:'/home-page',element:<HomePage/>,
+    {path:'/',element:<LoginScreen/> ,errorElement:<ErrorElement/>},
+    {path:'/create-account',element:<CreateAccount/>,errorElement:<ErrorElement/>},
+    {path:'/forgot-password',element:<ForgotPassword/>,errorElement:<ErrorElement/>},
+    {path:'/reset-password',element:<ResetPassword/>,errorElement:<ErrorElement/>},
+    {path:'/current-user',element:<CurrentUserProfile/>,errorElement:<ErrorElement/>},
+    {path:'/user',element:<UserProfile/>,errorElement:<ErrorElement/>},
+    {path:"/conversation" , element:<Conversation/>,errorElement:<ErrorElement/>},
+    {path:'/home-page',element:<HomePage/>,errorElement:<ErrorElement/>,
   
         children:
         [
-            {path:'',element:<Posts/>},
-            {path:'conversations',element:<Conversations/>},
-            {path:'update',element:<UpdateCredentials/>},
-            {path:'changepassword',element:<ChangePassWord/>},
-            {path:'close',element:<CloseAccount/>},
+            {path:'',element:<Posts/>,errorElement:<ErrorElement/>},
+            {path:'conversations',element:<Conversations/>,errorElement:<ErrorElement/>},
+            {path:'update',element:<UpdateCredentials/>,errorElement:<ErrorElement/>},
+            {path:'changepassword',element:<ChangePassWord/>,errorElement:<ErrorElement/>},
+            {path:'close',element:<CloseAccount/>,errorElement:<ErrorElement/>},
         ]
     },
    

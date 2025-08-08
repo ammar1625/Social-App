@@ -2,10 +2,35 @@
 
 .close-account-ctr
 {
-    @apply h-[100%] w-[100%] bg-slate-100 flex justify-center items-center
+    @apply h-[100%] w-[100%] bg-slate-100 flex justify-center items-center 
 }
 
 .close-account-title
 {
     @apply text-[110%] font-medium
+}
+
+.close-account-dialog
+{
+    @apply w-11/12 max-w-md rounded-lg bg-white p-6 shadow-xl absolute z-50 ; 
+}
+
+.close-account-dialog-message
+{
+    @apply mb-6 text-center text-lg font-medium text-gray-800;
+}
+
+.close-account-dialog-btns-ctr
+{
+    @apply flex flex-col-reverse gap-3 sm:flex-row sm:justify-end transition-all duration-300 ;
+}
+
+.close-account-dialog-cancel-btn
+{
+    @apply rounded-md bg-gray-300 px-5 py-2 text-sm font-semibold text-gray-800 transition hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2;
+}
+
+.close-account-dialog-comfirm-btn
+{
+    @apply rounded-md bg-[#1877f2] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#166fe5] focus:outline-none focus:ring-2 focus:ring-[#1877f2] focus:ring-offset-2;
 }
