@@ -9,7 +9,7 @@ import { FaRegComment } from "react-icons/fa";
 import { useGetUserAndFriendsPosts } from "../hooks/useGetUserAndFriendsPosts";
 import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import male from "../images/user.jpg";
-import female from "../images/woman-icon.jpg";
+import female from "../images/woman-icon.jpg"
 import { useTargetUserIdStore } from "../stores/useTargetUserIdStrore";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
 import { useIsCommentVisibleStore } from "../stores/useIsCommentModelVisible";
@@ -113,7 +113,7 @@ function Posts()
                 ImgInputRef.current.value="";
         }
      },[newPostData]);
-
+     
     return <div className="posts">
 
         {/*this is new post to create*/}
@@ -156,7 +156,7 @@ function Posts()
         </div>
         {/*this is post*/}
         {posts?.map(p=><div key={p.postId} className="new-post-ctr">
-
+            
             <div className="post-header">
                 
                     <NavLink data-user-id = {p.userId} to={p.userId===user.userId?"/current-user":"/user"} className="user-post-ctr"

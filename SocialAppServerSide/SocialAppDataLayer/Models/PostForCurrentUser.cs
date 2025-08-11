@@ -32,6 +32,8 @@ namespace SocialAppDataLayer.Models
 
         public string Phone { get; set; } = null!;
 
+        public char Gender { get; set; }
+
         public string? ProfilePic { get; set; }
 
         public bool IsEmailVerified { get; set; }
@@ -40,6 +42,6 @@ namespace SocialAppDataLayer.Models
 
         public int CommentsCount { get; set; }
         public int LikesCount { get; set; }
-        public string IsLiked { get; set; }
+        public string IsLiked { get; set; } = null!;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocialAppDataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6c56012d1b408a11657c767e6c41114b64d473")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9d0d7c562a669d0469ca0daa9a9e389454e44d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SocialAppDataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocialAppDataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

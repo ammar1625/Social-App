@@ -103,6 +103,18 @@ function HomePage()
             }
         },[isOverlayVisible,isLikeVisible]);
 
+        //control overlay apearance on its own
+        useEffect(()=>{
+            if(isOverlayVisible)
+            {
+                displayElement(overlayref,"60%");
+            }
+            else
+            {
+                hideElement(overlayref);
+            }
+        },[isOverlayVisible]);
+
         useEffect(()=>{
             if(newCommentData)
             {
