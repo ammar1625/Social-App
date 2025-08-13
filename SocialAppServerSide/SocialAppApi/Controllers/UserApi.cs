@@ -55,10 +55,24 @@ namespace SocialAppApi.Controllers
                 return BadRequest("invalid data");
             }
 
-            bool IsDeleted = await clsUser.DeleteUserAsync(Model.Email , Model.PassWord);
+            clsUser? User = await clsUser.GetUserByEmailAsync(Model.Email);
+
+            if(User==null)
+            {
+                return NotFound("user not found");
+            }
+
+            bool IsPassWordVerified = clsUtils.VerifyPassWord(Model.PassWord , User.PassWord);
+
+            bool IsDeleted = false;
+
+            if (IsPassWordVerified)
+            {
+                 IsDeleted = await clsUser.DeleteUserAsync(Model.Email);
+            }
 
 
-            return Ok(IsDeleted);
+            return Ok(new {IsDeleted = IsDeleted });
         }
 
         [HttpPut("change-password")]

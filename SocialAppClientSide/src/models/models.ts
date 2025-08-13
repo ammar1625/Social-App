@@ -383,3 +383,14 @@ export interface conversationMember
         status:boolean;
         user:user;
   }
+
+  export interface closeAccountModel
+  {
+        email:string|undefined;
+        passWord:string;
+  }
+
+  export interface closeAccountResponseModel
+  {
+        isDeleted:boolean;
+  }

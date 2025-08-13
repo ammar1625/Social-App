@@ -2,10 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import { useValidatePassWord } from "../hooks/useValidatePassWord";
 import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
+import { useCloseAccount } from "../hooks/useCloseAccount";
+import { useNavigate } from "react-router-dom";
 
 
 function CloseAccount()
 {
+    const navigate = useNavigate();
     const {user}  =userCurrentUserStore();
 
     const timeOutIdRef = useRef<number|null>(null);
@@ -23,6 +26,7 @@ function CloseAccount()
 
 
     const {data:validatePassWordData , mutate:mutateValidatePassWord}  =useValidatePassWord();
+    const {data:closeAccountData , mutateAsync:mutateCloseAccountAsync} = useCloseAccount();
 
     function supressError(field:React.RefObject<HTMLInputElement|null>)
     {
@@ -80,10 +84,11 @@ function CloseAccount()
         }
     }
 
+    //handle close account form validation and show close account dialog
     useEffect(()=>{
         if(validatePassWordData)
         {
-            //if the email is not correct => show error
+            
             if(email!= user.email)
             {
                 supressError(passWordRef);
@@ -101,12 +106,20 @@ function CloseAccount()
                 setIsOverlayVisible(true);
                 displayElement(closeAccountDialogRef);
             }
-            //if the password is not correct => show error
-            //otherwise display the close account dialog
-            //if the user selected yes=>call close account api
-            //if the user selected no then close the dialogue and do nothing
         }
     },[validatePassWordData]);
+
+
+    //handle close account after effect and log out
+    useEffect(()=>{
+        if(closeAccountData)
+        {
+            if(closeAccountData.isDeleted)
+            {
+                navigate("/");
+            }
+        }
+    },[closeAccountData]);
     
     return <div className="close-account-ctr">
          
@@ -130,11 +143,19 @@ function CloseAccount()
                     Cancel
                 </button>
 
-                {/* Confirm Button - Facebook Blue */}
+                {/* Confirm Button Blue */}
                 <button
                     type="button"
                     className="close-account-dialog-comfirm-btn"
-                    
+                    onClick={async()=>{
+                        await mutateCloseAccountAsync({
+                            email:user.email,
+                            passWord:passWord
+                        });
+
+                        setIsOverlayVisible(false);
+                        hideElement(closeAccountDialogRef);
+                    }}
                 >
                     Confirm
                 </button>

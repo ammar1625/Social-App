@@ -145,9 +145,9 @@ namespace SocialAppBusinessLayer
             return await UserData.ResetPassWordAsync(this.UserId , clsUtils.HashPassWord(this.PassWord));
         }
 
-        public static async Task<bool> DeleteUserAsync(string Email , string PassWord)
+        public static async Task<bool> DeleteUserAsync(string Email)
         {
-            return await UserData.DeleteUserAsync(Email, PassWord);
+            return await UserData.DeleteUserAsync(Email);
         }
 
         public async Task<bool> UpdateUserCredentialsAsync()

@@ -176,7 +176,7 @@ namespace SocialAppDataLayer
             return AffectedRows > 0;
         }
 
-        public static async Task<bool> DeleteUserAsync(string Email , string PassWord)
+        public static async Task<bool> DeleteUserAsync(string Email)
         {
             int AffectedRows = 0;
             using(AppDbContext Context = new AppDbContext())
@@ -192,8 +192,7 @@ namespace SocialAppDataLayer
 
                 AffectedRows = await Context.Database.ExecuteSqlInterpolatedAsync($@"
                                                        Exec Sp_DeleteUser
-                                                       @Email={Email},
-                                                       @PassWord={PassWord}");
+                                                       @Email={Email}");
             }
             return AffectedRows > 0;
         }
