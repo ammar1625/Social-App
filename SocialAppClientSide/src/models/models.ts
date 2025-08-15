@@ -394,3 +394,8 @@ export interface conversationMember
   {
         isDeleted:boolean;
   }
+
+  export interface logOutResponseModel
+  {
+        isLoggedOut:boolean;
+  }

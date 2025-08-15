@@ -3,7 +3,7 @@
 .posts
 {
     @apply w-[80%] h-[100%] bg-zinc-50 px-[3%] py-[2%]
-    overflow-y-scroll flex flex-col justify-between items-start
+    overflow-y-scroll flex flex-col justify-start items-start
     
 }
 

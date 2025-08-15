@@ -234,8 +234,12 @@ namespace SocialAppApi.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<IActionResult>LogOutAsync(string UserId)
+        public async Task<IActionResult>LogOutAsync([FromBody]string UserId)
         {
+            if(string.IsNullOrEmpty(UserId)||string.IsNullOrWhiteSpace(UserId))
+            {
+                return BadRequest("invalid data");
+            }
             string? AuthHeader = Request.Headers.Authorization.ToString();
             if(string.IsNullOrEmpty(AuthHeader)||!AuthHeader.StartsWith("Bearer "))
             {
@@ -255,7 +259,7 @@ namespace SocialAppApi.Controllers
             var TimeToExpiry = Expiry - DateTime.UtcNow;
             if(TimeToExpiry <= TimeSpan.Zero)
             {
-                return Ok(new { IsLogedOut = true });
+                return Ok(new { IsLoggedOut = true });
             }
 
             var Db = _redis.GetDatabase();

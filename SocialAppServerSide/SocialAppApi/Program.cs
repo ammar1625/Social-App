@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SocialAppApi.Mapping;
-using SocialAppApi.MiddleWares;
+using SocialAppApi.Middlewares;
 using SocialAppApi.websockets_service;
 using StackExchange.Redis;
 using System.Text;
@@ -22,7 +22,21 @@ var builder = WebApplication.CreateBuilder(options);
 //Add Redis
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 
-    ConnectionMultiplexer.Connect("localhost:5250")
+   {
+       var RedisConfigs = builder.Configuration.GetSection("Redis:Configuration").Value;
+       if (string.IsNullOrEmpty(RedisConfigs))
+           throw new InvalidOperationException("Redis configuration missing.");
+
+       try
+       {
+           return ConnectionMultiplexer.Connect(RedisConfigs);
+       }
+       catch (Exception ex)
+       {
+           Console.WriteLine($"Redis connection failed at startup: {ex.Message}");
+           throw; // Or ignore if you trust abortConnect=false
+       }
+   }
 );
 
 // Add services to the container.
