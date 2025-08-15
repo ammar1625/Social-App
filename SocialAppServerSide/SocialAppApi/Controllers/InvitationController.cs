@@ -12,7 +12,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Invitations")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+   
   
     public class InvitationController : ControllerBase
     {

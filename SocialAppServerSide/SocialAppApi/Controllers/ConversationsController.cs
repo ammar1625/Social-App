@@ -11,7 +11,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Conversations")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+  
     public class ConversationsController : ControllerBase
     {
         

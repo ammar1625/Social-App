@@ -6,8 +6,12 @@ using SocialAppApi.Models;
 using SocialAppBusinessLayer;
 using SocialAppBusinessLayer.Utiles;
 using SocialAppDataLayer.Dtos;
+using StackExchange.Redis;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using SocialAppApi.Utiles;
 
 namespace SocialAppApi.Controllers
 {
@@ -18,9 +22,11 @@ namespace SocialAppApi.Controllers
     public class UserApi : ControllerBase
     {
         private readonly IWebHostEnvironment _env;
-        public UserApi(IWebHostEnvironment env)
+        private readonly IConnectionMultiplexer _redis;
+        public UserApi(IWebHostEnvironment env,IConnectionMultiplexer redis)
         {
             _env = env;
+            _redis = redis;
         }
         [HttpGet("GetById/{UserId}",Name ="GetUserById")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -221,6 +227,45 @@ namespace SocialAppApi.Controllers
             bool IsValidPassWord = clsUtils.VerifyPassWord(Model.PassWord, User.PassWord);
 
             return Ok(new {IsValid =  IsValidPassWord });
+        }
+
+        [HttpPost("log-out")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<IActionResult>LogOutAsync(string UserId)
+        {
+            string? AuthHeader = Request.Headers.Authorization.ToString();
+            if(string.IsNullOrEmpty(AuthHeader)||!AuthHeader.StartsWith("Bearer "))
+            {
+                return Unauthorized();
+            }
+
+            string AccessToken = AuthHeader.Substring("Bearer ".Length).Trim();
+
+            if(!Utils.TryGetTokenExpiry(AccessToken, out DateTime Expiry))
+            {
+                return BadRequest("could not read toke, expiry time");
+            }
+
+            //delete all refresh token for this user
+            await clsRefreshToken.DeleteAllRefreshTokensByUserIdAsync(UserId);
+
+            var TimeToExpiry = Expiry - DateTime.UtcNow;
+            if(TimeToExpiry <= TimeSpan.Zero)
+            {
+                return Ok(new { IsLogedOut = true });
+            }
+
+            var Db = _redis.GetDatabase();
+            await Db.StringSetAsync(
+                key:$"blacklisted_token:{AccessToken}",
+                value:true,
+                expiry:TimeToExpiry
+                );
+
+            return Ok(new { IsLoggedOut = true });
         }
 
     }

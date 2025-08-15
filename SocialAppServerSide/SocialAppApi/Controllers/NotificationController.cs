@@ -11,7 +11,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Notifications")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+   
     public class NotificationController : ControllerBase
     {
         

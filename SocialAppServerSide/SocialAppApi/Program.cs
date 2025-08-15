@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SocialAppApi.Mapping;
+using SocialAppApi.MiddleWares;
 using SocialAppApi.websockets_service;
+using StackExchange.Redis;
 using System.Text;
 
 var options = new WebApplicationOptions
@@ -16,6 +18,12 @@ var options = new WebApplicationOptions
 };
 
 var builder = WebApplication.CreateBuilder(options);
+
+//Add Redis
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+
+    ConnectionMultiplexer.Connect("localhost:5250")
+);
 
 // Add services to the container.
 
@@ -125,7 +133,11 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
+app.UseAuthentication();
+
 app.UseAuthorization();
+
+app.UseMiddleware<TokenBlacklistMiddleware>();
 
 app.MapControllers();
 

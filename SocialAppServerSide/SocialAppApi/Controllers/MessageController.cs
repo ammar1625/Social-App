@@ -11,7 +11,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Messages")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+   
     public class MessageController : ControllerBase
     {
         private readonly IWebHostEnvironment _env;

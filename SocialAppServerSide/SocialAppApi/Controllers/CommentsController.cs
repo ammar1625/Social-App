@@ -11,7 +11,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Comments")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+   
     public class CommentsController : ControllerBase
     {
         [HttpGet("{CommentId}",Name ="GetCommentById")]

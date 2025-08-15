@@ -11,7 +11,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Posts")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+  
     
     public class PostController : ControllerBase
     {

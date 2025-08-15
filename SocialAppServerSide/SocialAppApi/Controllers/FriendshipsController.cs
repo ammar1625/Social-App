@@ -12,7 +12,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Friendships")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+ 
     
     public class FriendshipsController : ControllerBase
     {

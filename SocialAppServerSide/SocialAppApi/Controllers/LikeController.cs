@@ -12,7 +12,7 @@ namespace SocialAppApi.Controllers
     [Route("api/Like")]
     [ApiController]
     [Authorize]
-    [AllowAnonymous]
+   
     public class LikeController : ControllerBase
     {
        
