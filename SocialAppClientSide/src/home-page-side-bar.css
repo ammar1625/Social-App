@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .home-page-side-bar{
-    @apply  w-[20%] h-[100%] flex flex-col justify-start items-start pl-3
+    @apply  w-[20%] h-[100%] flex flex-col justify-start items-start pl-3 
 }
 
 .nav-link

@@ -399,3 +399,9 @@ export interface conversationMember
   {
         isLoggedOut:boolean;
   }
+
+  export interface changeProfilePicModel
+  {
+      userId:string;
+      profilePic:File|null;
+  }

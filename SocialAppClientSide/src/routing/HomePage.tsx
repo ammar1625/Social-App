@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import HomePageSideBar from "../components/HomePageSideBar";
 import NavBar from "../components/NavBar";
 import { BsSendFill } from "react-icons/bs";
@@ -21,14 +21,18 @@ import { useCommentContentStore } from "../stores/useCommentContentStore";
 import { useQueryClient } from "@tanstack/react-query";
 import { useAddNotification } from "../hooks/useAddNewNotification";
 import { useNotificationsWebSocket } from "../hooks/useNotificationsWebsocket";
+import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
+import { useLogOut } from "../hooks/useLogOut";
 
 function HomePage()
 {
+    const navigate = useNavigate();
     const queryClient = useQueryClient()
     const overlayref = useRef<HTMLDivElement>(null);
     const commentsRef = useRef<HTMLDivElement>(null);
     const likesRef = useRef<HTMLDivElement>(null);
     const commentContentRef = useRef<HTMLInputElement>(null);
+    const logOutDialogRef = useRef<HTMLDivElement>(null);
 
     const {isOverlayVisible , setIsOverlayVisible} = useIsOverlayVisibleStore();
     const {isCommentVisible,setIsCommentVisible} = useIsCommentVisibleStore();
@@ -37,10 +41,12 @@ function HomePage()
     const {user} = userCurrentUserStore();
     const {setUserId} = useTargetUserIdStore();
     const {commentContent,setCommentContent} = useCommentContentStore();
+    const {isLogoutDialogVisible, setIsLogOutDialogVisible}  =useIsLogoutDialogVisibleStore();
     const { data:likesData} = useGetAllLikes(postId);
     const {data:commentsData} = useGetAllComments(postId);
     const {data:newCommentData,mutate:mutateNewComment}  =useAddNewComment(queryClient , postId , user.userId);
     const {mutate:mutateNotification} = useAddNotification();
+    const {data:logOutData,mutateAsync:mutateLogOutAsync} = useLogOut();
     
     const {sendNotification} = useNotificationsWebSocket('ws://localhost:7890/notifications',user.userId , queryClient);    
 
@@ -129,6 +135,27 @@ function HomePage()
                     });
             }
         },[newCommentData]);
+
+        //handle log out dialog display process
+     useEffect(()=>{
+        
+        if(isLogoutDialogVisible)
+        {
+            displayElement(logOutDialogRef,"100%"); 
+        }
+        else
+        {
+            hideElement(logOutDialogRef);
+        }
+     },[isLogoutDialogVisible]);
+
+     //handle going back to log in screen after logout
+     useEffect(()=>{
+        if(logOutData?.isLoggedOut)
+        {
+            navigate("/");
+        }
+     },[logOutData]);
         
         function getTimeAgo(dateString: string): string {
             const date = new Date(dateString);
@@ -156,6 +183,8 @@ function HomePage()
 
         
         
+
+   
 
     return <div className="home-page-ctr">
                 <NavigationSetter/>
@@ -263,7 +292,41 @@ function HomePage()
                     </NavLink>)}
                
                 </div>
+                <div ref={logOutDialogRef} className="dialog log-out-dialog invisible" >
+            {/* Message */}
+            <p className="dialog-message">
+            Do you want to disconnect?
+            </p>
 
+            {/* Buttons */}
+            <div className="dialog-btns-ctr">
+                {/* Cancel Button */}
+                <button
+                    type="button"
+                    className="dialog-cancel-btn"
+                    onClick={()=>{
+                        setIsOverlayVisible(false);
+                        setIsLogOutDialogVisible(false);
+                    }}
+                >
+                    Cancel
+                </button>
+
+                {/* Confirm Button Blue */}
+                <button
+                    type="button"
+                    className="dialog-comfirm-btn"
+                    onClick={async()=>{
+                        await mutateLogOutAsync(user.userId);
+
+                        setIsLogOutDialogVisible(false);
+                        setIsOverlayVisible(false);
+                    }}
+                >
+                    Confirm
+                </button>
+            </div>
+      </div>
                 <div id="main" className="home-page-body-ctr">
                     <HomePageSideBar/>
                     <Outlet/> 

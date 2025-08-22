@@ -4,6 +4,8 @@ import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
 import { useCloseAccount } from "../hooks/useCloseAccount";
 import { useNavigate } from "react-router-dom";
+import { useLogOut } from "../hooks/useLogOut";
+//import {  useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
 
 
 function CloseAccount()
@@ -15,6 +17,8 @@ function CloseAccount()
     const hasTimeOut = useRef<boolean>(false);
 
     const closeAccountDialogRef = useRef<HTMLDivElement>(null);
+   // const logOutDialogRef = useRef<HTMLDivElement>(null);
+
     const msgRef = useRef<HTMLParagraphElement>(null);
     const emailRef = useRef<HTMLInputElement>(null);
     const passWordRef = useRef<HTMLInputElement>(null);
@@ -23,8 +27,9 @@ function CloseAccount()
     const [email,setEmail] = useState("");
     const [passWord,setPassWord] = useState("");
     const {setIsOverlayVisible} = useIsOverlayVisibleStore();
+    const {data:logOutData,mutateAsync:mutateLogOutAsync }  =useLogOut();
 
-
+    
     const {data:validatePassWordData , mutate:mutateValidatePassWord}  =useValidatePassWord();
     const {data:closeAccountData , mutateAsync:mutateCloseAccountAsync} = useCloseAccount();
 
@@ -114,27 +119,50 @@ function CloseAccount()
     useEffect(()=>{
         if(closeAccountData)
         {
-            if(closeAccountData.isDeleted)
+           async function handleAccountDeletion()
+           {
+            if(closeAccountData)
+                {
+                    if(closeAccountData.isDeleted)
+                        {
+                            await mutateLogOutAsync(user.userId);
+                            setIsOverlayVisible(false);
+                            hideElement(closeAccountDialogRef);
+                            
+                        }
+                 }
+           }
+
+           handleAccountDeletion();
+           
+        }
+    },[closeAccountData]);
+
+    //handle redirect user to login after close account and logout
+    useEffect(()=>{
+        if(logOutData)
+        {
+            if(logOutData.isLoggedOut)
             {
                 navigate("/");
             }
         }
-    },[closeAccountData]);
+    },[logOutData]);
     
     return <div className="close-account-ctr">
          
-      <div ref={closeAccountDialogRef} className="close-account-dialog invisible" >
+      <div ref={closeAccountDialogRef} className="dialog invisible" >
             {/* Message */}
-            <p className="close-account-dialog-message">
+            <p className="dialog-message">
             Do you want to close your account?
             </p>
 
             {/* Buttons */}
-            <div className="close-account-dialog-btns-ctr">
+            <div className="dialog-btns-ctr">
                 {/* Cancel Button */}
                 <button
                     type="button"
-                    className="close-account-dialog-cancel-btn"
+                    className="dialog-cancel-btn"
                     onClick={()=>{
                         setIsOverlayVisible(false);
                         hideElement(closeAccountDialogRef);
@@ -146,7 +174,7 @@ function CloseAccount()
                 {/* Confirm Button Blue */}
                 <button
                     type="button"
-                    className="close-account-dialog-comfirm-btn"
+                    className="dialog-comfirm-btn"
                     onClick={async()=>{
                         await mutateCloseAccountAsync({
                             email:user.email,
@@ -161,6 +189,8 @@ function CloseAccount()
                 </button>
             </div>
       </div>
+
+     
                     <div className="login-form-ctr">
                    
                     <p ref={msgRef} className="error-msg invisible">{message}</p>

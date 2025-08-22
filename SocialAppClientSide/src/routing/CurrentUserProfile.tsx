@@ -6,7 +6,7 @@ import { BiLike, BiSolidLike } from "react-icons/bi";
 import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { useGetAllFriends } from "../hooks/useGetAllFriends";
 import { useGetCurrentUserPosts } from "../hooks/useGetCurrentUserPosts";
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
 import { useIsCommentVisibleStore } from "../stores/useIsCommentModelVisible";
 import { useIsLikeVisibleStore } from "../stores/useIsLikeModelVisible";
@@ -24,18 +24,21 @@ import { useQueryClient } from "@tanstack/react-query";
 import { useAddNotification } from "../hooks/useAddNewNotification";
 import { useAddNewLike } from "../hooks/useAddNewLike";
 import { useDeleteLike } from "../hooks/useDeleteLike";
+import { useChangeProfilePic } from "../hooks/useChangeProfilePic";
 function CurrentUserProfile()
 {
     const queryClient = useQueryClient();
-    const {user} = userCurrentUserStore();
+    const {user , setCurrentUser} = userCurrentUserStore();
 
     const {data:friendsList}  =useGetAllFriends(user.userId);
     const {data:currentUserPosts} = useGetCurrentUserPosts({userId:user.userId , currentUserId:user.userId});
+    const {data:changeProfilePicData , mutateAsync:mutateProfilePicAsync}  = useChangeProfilePic();
 
         const overlayref = useRef<HTMLDivElement>(null);
         const commentsRef = useRef<HTMLDivElement>(null);
         const likesRef = useRef<HTMLDivElement>(null);
         const commentInputRef = useRef<HTMLInputElement>(null);
+        const picInputRef = useRef<HTMLInputElement>(null);
     
         const {isOverlayVisible,setIsOverlayVisible} = useIsOverlayVisibleStore();
         const {isCommentVisible,setIsCommentVisible} = useIsCommentVisibleStore();
@@ -51,6 +54,43 @@ function CurrentUserProfile()
         const {mutate:mutateNotification} = useAddNotification();
         const {mutate:mutateLike} = useAddNewLike(queryClient, user.userId , user.userId,2);
         const {mutate:mutateDislike} = useDeleteLike(queryClient,user.userId , user.userId,2);
+
+        const [selectedFile,setSelectedFile]  =useState<File|null>(null);
+        const [imageUrl,setImageUrl] = useState("");
+
+        function handleImageSelection(e:React.ChangeEvent<HTMLInputElement>)
+        {
+            if(e.target.files)
+            {
+                if(e.target.files?.length>0)
+                    {
+                        const file = e.target.files[0];
+                        setSelectedFile(file);
+                        setImageUrl(URL.createObjectURL(file));
+                        
+                    }
+            }
+               
+        }
+
+        function handleImageDeletion()
+        {
+            if(picInputRef.current)
+            {
+                picInputRef.current.value = "";
+                setSelectedFile(null);
+                setImageUrl("");
+            }
+        } 
+
+        function clearImageInput()
+        {
+            if(picInputRef.current)
+            {
+                picInputRef.current.value ="";
+                setSelectedFile(null);
+            }
+        }
        
     
         function displayElement(element:React.RefObject<HTMLDivElement|null> , opacity:string)
@@ -122,6 +162,17 @@ function CurrentUserProfile()
                         });
                     }
                 },[newCommentData]);
+
+
+                //handle user profile pic update for the current user
+                useEffect(()=>{
+                    if(changeProfilePicData)
+                    {
+                        setCurrentUser({
+                            profilePic:changeProfilePicData
+                        });
+                    }
+                },[changeProfilePicData]);
 
     function getTimeAgo(dateString: string): string {
         const date = new Date(dateString);
@@ -250,14 +301,26 @@ function CurrentUserProfile()
 
         <div className="profile">
             <div className="infos-ctr">
-                <img src={user.profilePic?user.profilePic:user.gender==="M"?male:female} alt="user" className="profile-pic" />
+                <img src={imageUrl?imageUrl: user.profilePic?user.profilePic:user.gender==="M"?male:female} alt="user" className="profile-pic" />
                 <p className="user-name">{user.firstName+" "+user.lastName}</p>
-                <input id= "pic-id" type="file" accept="image/*" className="hidden"/>
+                <input ref={picInputRef} id= "pic-id" type="file" accept="image/*" className="hidden" onChange={handleImageSelection}/>
                 <label htmlFor="pic-id" className="change-pic-icon"><FaCamera size={19} color="gray"/></label>
             </div>
-            <div className="change-pic-dialog invisible">
-                <button className="save-button">save</button>
-                <button className="cancel-button">cancel</button>
+           <div className={selectedFile?"change-pic-dialog":"change-pic-dialog invisible"}>
+                <button className="save-button"
+                    onClick={async()=>{
+
+                       await mutateProfilePicAsync({
+                            userId:user.userId,
+                            profilePic:selectedFile
+                        });
+
+                        clearImageInput();
+                    }}
+                >save</button>
+                <button className="cancel-button"
+                    onClick={()=>handleImageDeletion()}
+                >cancel</button>
             </div>
             <div className="friends-ctr">
                 <div className="friends-count-ctr">
