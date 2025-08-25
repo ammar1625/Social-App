@@ -5,6 +5,7 @@ import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
 import { useCloseAccount } from "../hooks/useCloseAccount";
 import { useNavigate } from "react-router-dom";
 import { useLogOut } from "../hooks/useLogOut";
+import { useIsDisconnectingMessageVisible } from "../stores/useIsDisconnectingMessageVisible";
 //import {  useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
 
 
@@ -27,11 +28,12 @@ function CloseAccount()
     const [email,setEmail] = useState("");
     const [passWord,setPassWord] = useState("");
     const {setIsOverlayVisible} = useIsOverlayVisibleStore();
+    const {setIsDisconnectingMessageVisible}  =useIsDisconnectingMessageVisible();
     const {data:logOutData,mutateAsync:mutateLogOutAsync }  =useLogOut();
 
     
-    const {data:validatePassWordData , mutate:mutateValidatePassWord}  =useValidatePassWord();
-    const {data:closeAccountData , mutateAsync:mutateCloseAccountAsync} = useCloseAccount();
+    const {data:validatePassWordData , mutate:mutateValidatePassWord , isPending}  =useValidatePassWord();
+    const {data:closeAccountData , mutateAsync:mutateCloseAccountAsync } = useCloseAccount();
 
     function supressError(field:React.RefObject<HTMLInputElement|null>)
     {
@@ -89,6 +91,30 @@ function CloseAccount()
         }
     }
 
+    function spinner()
+    {
+        return <svg
+        className="animate-spin text-gray-400 w-[1.3em] h-[1.3em]"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <circle
+          className="opacity-25"
+          cx="12"
+          cy="12"
+          r="10"
+          stroke="currentColor"
+          strokeWidth="4"
+        />
+        <path
+          className="opacity-75"
+          fill="currentColor"
+          d="M12 2a10 10 0 0110 10h-4a6 6 0 00-6-6V2z"
+        />
+      </svg>
+         }
+
     //handle close account form validation and show close account dialog
     useEffect(()=>{
         if(validatePassWordData)
@@ -125,9 +151,11 @@ function CloseAccount()
                 {
                     if(closeAccountData.isDeleted)
                         {
+                            setIsDisconnectingMessageVisible(true);
                             await mutateLogOutAsync(user.userId);
+                            setIsDisconnectingMessageVisible(false);
                             setIsOverlayVisible(false);
-                            hideElement(closeAccountDialogRef);
+                            //hideElement(closeAccountDialogRef);
                             
                         }
                  }
@@ -176,13 +204,14 @@ function CloseAccount()
                     type="button"
                     className="dialog-comfirm-btn"
                     onClick={async()=>{
+                        hideElement(closeAccountDialogRef);
                         await mutateCloseAccountAsync({
                             email:user.email,
                             passWord:passWord
                         });
 
                         setIsOverlayVisible(false);
-                        hideElement(closeAccountDialogRef);
+                        
                     }}
                 >
                     Confirm
@@ -211,7 +240,7 @@ function CloseAccount()
                         <p className="close-account-title">would you like to close your account?</p>
                         <input ref={emailRef} type="email" className="input-field" placeholder="email..." onChange={(e)=>setEmail(e.target.value.trim())}/>
                         <input ref={passWordRef} type="password" className="input-field" placeholder="password..." onChange={(e)=>setPassWord(e.target.value.trim())}/>
-                        <button className="btn login-btn">Close Account</button>
+                        <button className="btn login-btn">{isPending?spinner(): "Close Account"}</button>
                     
                     {/*  <button className="btn create-account">create account</button> */}
                         </form> 

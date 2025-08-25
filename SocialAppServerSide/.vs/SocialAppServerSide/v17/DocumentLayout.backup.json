@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\controllers\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\utiles\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\utiles\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|solutionrelative:socialappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCCCA551-C1DC-4D7C-88C2-5C1173DB7BDD}|SocialAppApi\\SocialAppApi.csproj|c:\\repos\\socialapp\\socialappserverside\\socialappapi\\middlewares\\tokenblacklistmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -729,36 +729,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserApi.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\UserApi.cs",
               "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\UserApi.cs",
               "RelativeToolTip": "SocialAppApi\\Controllers\\UserApi.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAAwO0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAqwPYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T14:43:39.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAYwGMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:18:05.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Utiles\\Utils.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Utiles\\Utils.cs",
@@ -770,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "clsRefreshToken.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\clsRefreshToken.cs",
               "RelativeDocumentMoniker": "SocialAppBusinessLayer\\clsRefreshToken.cs",
@@ -794,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NotificationsBehaviour.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\websockets-service\\NotificationsBehaviour.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\websockets-service\\NotificationsBehaviour.cs",
@@ -818,15 +806,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Program.cs",
               "RelativeDocumentMoniker": "SocialAppApi\\Program.cs",
               "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Program.cs",
               "RelativeToolTip": "SocialAppApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:11:11.154Z"
+              "WhenOpened": "2025-04-13T14:11:11.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SocialAppApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwGMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:18:05.53Z"
             },
             {
               "$type": "Document",

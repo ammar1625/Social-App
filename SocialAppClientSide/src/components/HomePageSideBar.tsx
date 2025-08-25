@@ -10,6 +10,7 @@ import {  useState } from "react";
 //import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
 import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
+
 function HomePageSideBar()
 {
     //const navigate = useNavigate();
@@ -18,6 +19,7 @@ function HomePageSideBar()
     //const {data:logOutData,mutate:mutateLogOut }  =useLogOut();
     const {setIsOverlayVisible}  = useIsOverlayVisibleStore();
     const {setIsLogOutDialogVisible} = useIsLogoutDialogVisibleStore();
+    
 
     /* //go back to login screen after successfull log out
     useEffect(()=>{ 
@@ -41,6 +43,7 @@ function HomePageSideBar()
            // mutateLogOut(user.userId);
            setIsOverlayVisible(true);
            setIsLogOutDialogVisible(true);
+        
            
         }}><TbLogout2 size={28}/><span>  Logout</span></ button >
         < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="close" onClick={()=>setIsHome(false)}><MdDeleteOutline size={28}/><span>  Close Account</span></NavLink>

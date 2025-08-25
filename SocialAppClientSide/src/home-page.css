@@ -134,4 +134,10 @@
     @apply text-[85%] text-gray-800 font-medium
 }
 
+.disconnect
+{
+    @apply absolute top-[50%] left-[50%] bg-white w-[14%] h-[12%] rounded-lg text-lg text-gray-800 font-medium
+    flex justify-evenly items-center shadow-sm shadow-gray-300 z-50
+}
+
 

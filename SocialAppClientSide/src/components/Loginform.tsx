@@ -278,6 +278,13 @@ function LoginForm()
                             twoFaMsgRef.current?.classList.add("invisible");
                         }, 4000);
                     }
+                    else
+                    {
+                        if(otpRef.current)
+                        {
+                            setCode(parseInt(otpRef.current.value));
+                        }
+                    }
               }}>
             
                 <div className="title-ctr">
@@ -286,10 +293,10 @@ function LoginForm()
                 </div>
 
                 <input ref={otpRef} type="number" className="input-field forgot-password-input-field" placeholder="otp code" 
-                onBlur={(e)=>{
+                /* onBlur={(e)=>{
                     if(e.target.value)
                     setCode(parseInt(e.target.value));
-                }}/>
+                }} *//>
 
                 <div className="buttons-ctr hidden">
                     <button className="cancel-btn" onClick={()=>{

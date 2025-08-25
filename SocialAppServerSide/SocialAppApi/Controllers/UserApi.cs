@@ -240,34 +240,34 @@ namespace SocialAppApi.Controllers
             {
                 return BadRequest("invalid data");
             }
-            string? AuthHeader = Request.Headers.Authorization.ToString();
-            if(string.IsNullOrEmpty(AuthHeader)||!AuthHeader.StartsWith("Bearer "))
-            {
-                return Unauthorized();
-            }
+            //string? AuthHeader = Request.Headers.Authorization.ToString();
+            //if(string.IsNullOrEmpty(AuthHeader)||!AuthHeader.StartsWith("Bearer "))
+            //{
+            //    return Unauthorized();
+            //}
 
-            string AccessToken = AuthHeader.Substring("Bearer ".Length).Trim();
+            //string AccessToken = AuthHeader.Substring("Bearer ".Length).Trim();
 
-            if(!Utils.TryGetTokenExpiry(AccessToken, out DateTime Expiry))
-            {
-                return BadRequest("could not read toke, expiry time");
-            }
+            //if(!Utils.TryGetTokenExpiry(AccessToken, out DateTime Expiry))
+            //{
+            //    return BadRequest("could not read toke, expiry time");
+            //}
 
-            //delete all refresh token for this user
-            await clsRefreshToken.DeleteAllRefreshTokensByUserIdAsync(UserId);
+            ////delete all refresh token for this user
+            //await clsRefreshToken.DeleteAllRefreshTokensByUserIdAsync(UserId);
 
-            var TimeToExpiry = Expiry - DateTime.UtcNow;
-            if(TimeToExpiry <= TimeSpan.Zero)
-            {
-                return Ok(new { IsLoggedOut = true });
-            }
+            //var TimeToExpiry = Expiry - DateTime.UtcNow;
+            //if(TimeToExpiry <= TimeSpan.Zero)
+            //{
+            //    return Ok(new { IsLoggedOut = true });
+            //}
 
-            var Db = _redis.GetDatabase();
-            await Db.StringSetAsync(
-                key:$"blacklisted_token:{AccessToken}",
-                value:true,
-                expiry:TimeToExpiry
-                );
+            //var Db = _redis.GetDatabase();
+            //await Db.StringSetAsync(
+            //    key:$"blacklisted_token:{AccessToken}",
+            //    value:true,
+            //    expiry:TimeToExpiry
+            //    );
 
             return Ok(new { IsLoggedOut = true });
         }

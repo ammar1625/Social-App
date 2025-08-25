@@ -23,6 +23,7 @@ import { useAddNotification } from "../hooks/useAddNewNotification";
 import { useNotificationsWebSocket } from "../hooks/useNotificationsWebsocket";
 import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
 import { useLogOut } from "../hooks/useLogOut";
+import { useIsDisconnectingMessageVisible } from "../stores/useIsDisconnectingMessageVisible";
 
 function HomePage()
 {
@@ -33,6 +34,7 @@ function HomePage()
     const likesRef = useRef<HTMLDivElement>(null);
     const commentContentRef = useRef<HTMLInputElement>(null);
     const logOutDialogRef = useRef<HTMLDivElement>(null);
+    const disconnectMessageRef = useRef<HTMLDivElement>(null);
 
     const {isOverlayVisible , setIsOverlayVisible} = useIsOverlayVisibleStore();
     const {isCommentVisible,setIsCommentVisible} = useIsCommentVisibleStore();
@@ -42,11 +44,12 @@ function HomePage()
     const {setUserId} = useTargetUserIdStore();
     const {commentContent,setCommentContent} = useCommentContentStore();
     const {isLogoutDialogVisible, setIsLogOutDialogVisible}  =useIsLogoutDialogVisibleStore();
+    const {isDisconnectingMessageVisible, setIsDisconnectingMessageVisible} = useIsDisconnectingMessageVisible();
     const { data:likesData} = useGetAllLikes(postId);
     const {data:commentsData} = useGetAllComments(postId);
     const {data:newCommentData,mutate:mutateNewComment}  =useAddNewComment(queryClient , postId , user.userId);
     const {mutate:mutateNotification} = useAddNotification();
-    const {data:logOutData,mutateAsync:mutateLogOutAsync} = useLogOut();
+    const {data:logOutData,mutateAsync:mutateLogOutAsync } = useLogOut();
     
     const {sendNotification} = useNotificationsWebSocket('ws://localhost:7890/notifications',user.userId , queryClient);    
 
@@ -156,6 +159,18 @@ function HomePage()
             navigate("/");
         }
      },[logOutData]);
+
+     //handle displaying disconnecting message
+      useEffect(()=>{
+        if(isDisconnectingMessageVisible)
+        {
+            displayElement(disconnectMessageRef,"100%");
+        }
+        else
+        {
+            hideElement(disconnectMessageRef);
+        }
+     },[isDisconnectingMessageVisible]); 
         
         function getTimeAgo(dateString: string): string {
             const date = new Date(dateString);
@@ -181,7 +196,29 @@ function HomePage()
             }
           }
 
-        
+          function spinner()
+    {
+        return <svg
+        className="animate-spin text-gray-400 w-[1.3em] h-[1.3em]"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <circle
+          className="opacity-25"
+          cx="12"
+          cy="12"
+          r="10"
+          stroke="currentColor"
+          strokeWidth="4"
+        />
+        <path
+          className="opacity-75"
+          fill="currentColor"
+          d="M12 2a10 10 0 0110 10h-4a6 6 0 00-6-6V2z"
+        />
+      </svg>
+         }
         
 
    
@@ -317,16 +354,22 @@ function HomePage()
                     type="button"
                     className="dialog-comfirm-btn"
                     onClick={async()=>{
+                         setIsLogOutDialogVisible(false);
+                         setIsDisconnectingMessageVisible(true);
                         await mutateLogOutAsync(user.userId);
-
-                        setIsLogOutDialogVisible(false);
                         setIsOverlayVisible(false);
+                        setIsDisconnectingMessageVisible(false);
+
                     }}
                 >
                     Confirm
                 </button>
             </div>
-      </div>
+                </div>
+
+                <div ref={disconnectMessageRef} className="disconnect ">
+                    {spinner()} <span>disconnecting...</span> 
+                </div>
                 <div id="main" className="home-page-body-ctr">
                     <HomePageSideBar/>
                     <Outlet/> 
