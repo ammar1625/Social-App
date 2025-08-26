@@ -3,95 +3,96 @@
 *{
     @apply font-[roboto]
 }
-
-.login-screen
-{
-    @apply h-screen w-[100%]  flex justify-around items-center
+.login-screen {
+    @apply h-screen w-full flex justify-around items-center 
+           flex-col md:flex-row; 
+    /* ⬆️ على الشاشات الصغيرة (mobile) العناصر عمودية، 
+          وعلى md (tablet وما فوق) يرجعوا أفقي */
 }
 
-.logo-ctr
-{
-    @apply  w-[55%] h-[60%] flex flex-col justify-around items-center
+.logo-ctr {
+    @apply w-[80%] md:w-[55%] h-auto md:h-[60%] flex flex-col justify-around items-center text-center;
+    /* ⬆️ عرض أكبر على الموبايل (80%) وأصغر على الشاشات الكبيرة (55%) */
+    /* ⬆️ أزلت translate-y- لأنه ممكن يكسر على الشاشات الصغيرة */
 }
 
-.app-logo
-{
-    @apply w-[60%]
+.app-logo {
+    @apply w-[70%] md:w-[60%];
+    /* ⬆️ اللوجو يكبر على الموبايل شوي (70%) */
 }
 
-.caption
-{
-    @apply text-[200%] font-semibold text-blue-900 translate-y-[-250%]
+.caption {
+    @apply text-lg md:text-2xl lg:text-3xl font-semibold text-blue-900 mt-4;
+    /* ⬆️ أحجام خط مختلفة حسب الشاشة بدل 200% */
 }
 
-.login-form-ctr
-{
-    @apply w-[30%] h-[69%] flex flex-col justify-around items-center 
+.login-form-ctr {
+    @apply w-[90%] md:w-[40%] lg:w-[30%] h-auto flex flex-col justify-around items-center mt-6 md:mt-0;
+    /* ⬆️ العرض 90% على الموبايل، أضيق على الشاشات الكبيرة */
+    /* ⬆️ mt-6 للموبايل عشان في فراغ بين اللوجو والفورم */
 }
 
-.login-form
-{
-    @apply bg-zinc-50 shadow-lg shadow-zinc-400 w-[100%] h-[85%] flex flex-col justify-around items-center rounded-lg pb-6
+.login-form {
+    @apply bg-zinc-50 shadow-lg shadow-zinc-400 w-full h-auto p-6 flex flex-col gap-4 items-center rounded-lg;
+    /* ⬆️ استخدمت gap-4 بدل justify-around علشان المسافات تبقى متناسبة على أي شاشة */
+    /* ⬆️ خليت h-auto + padding بدل height ثابت */
 }
 
-.input-field
-{
-    @apply border-2 border-gray-400 h-[15%] w-[95%] rounded-lg outline-none px-6
-    focus:border-1 focus:border-blue-500 focus:shadow-sm focus:shadow-blue-500 transition-all duration-100
-    text-xl
+.input-field {
+    @apply border-2 border-gray-400 w-full h-12 rounded-lg outline-none px-4
+           focus:border-blue-500 focus:shadow-sm focus:shadow-blue-500 transition-all duration-100
+           text-base md:text-lg;
+    /* ⬆️ حجم الخط أصغر على الموبايل (text-base) ويكبر شوية على md */
+    /* ⬆️ ارتفاع input ثابت (h-12) بدل % علشان يكون مناسب على كل الشاشات */
 }
 
-.invalid-input-field
-{
-    @apply border-1 border-red-400 bg-red-200 focus:shadow-sm focus:shadow-red-300
+.btn {
+    @apply text-base md:text-lg text-white font-medium h-12 w-full rounded-lg hover:opacity-80 transition-all duration-300
+           cursor-pointer flex justify-center items-center;
+    /* ⬆️ نفس المبدأ: أزرار أصغر على الموبايل */
 }
 
-.btn
-{
-    @apply text-[130%] text-white font-medium h-[15%] rounded-lg hover:opacity-80 transition-all duration-300
-    cursor-pointer flex justify-center items-center
+.login-btn {
+    @apply bg-blue-600;
 }
 
-.login-btn
-{
-    @apply bg-blue-600 w-[95%]
-}
- 
-.create-account
-{
-    @apply bg-emerald-600 w-[45%]
-} 
-
-.forgot-password-link
-{
-    @apply text-[100%] text-blue-600 hover:underline
+.create-account {
+    @apply bg-emerald-600 md:w-[45%] w-full;
+    /* ⬆️ على الموبايل بعرض كامل، وعلى الشاشات الأكبر 45% */
 }
 
-.error-msg
-{
-    @apply border-1 border-red-400 bg-red-300 text-red-600 text-xl w-[100%] text-center py-2
-    rounded-lg mb-[2%]
+.forgot-password-link {
+    @apply text-sm md:text-base text-blue-600 hover:underline;
+    /* ⬆️ خط أصغر على الموبايل */
 }
 
-.msg
-{
-    @apply border-1 border-blue-400 bg-blue-300 text-blue-600 text-xl w-[100%] text-center py-2
-    rounded-lg mb-[2%]
+/* Error message */
+.error-msg {
+    @apply text-sm md:text-base w-full text-center py-2 rounded-lg
+           border border-red-500 bg-red-100 text-red-700;
+    /* 🔴 خلفية فاتحة + خط أحمر + إطار */
+  }
+  
+  /* Success / info message */
+  .msg {
+    @apply text-sm md:text-base w-full text-center py-2 rounded-lg
+           border border-blue-500 bg-blue-100 text-blue-700;
+    /* 🔵 خلفية فاتحة + خط أزرق + إطار */
+  }
+
+.two-fa-login-ctr {
+    @apply w-[90%] md:w-[40%] lg:w-[35%] h-auto flex flex-col justify-around hidden;
+    /* ⬆️ نفس منطق login-form-ctr */
 }
 
-/*2fa login form styles*/
-.two-fa-login-ctr
-{
-    @apply h-[45%] w-[35%] flex flex-col justify-around hidden
-}
-.two-fa-login-form
-{
-    @apply h-[80%] w-[100%] bg-zinc-100 rounded-lg shadow-xl shadow-slate-300
-    flex flex-col justify-around items-start pl-6  
+.two-fa-login-form {
+    @apply w-full h-auto p-6 bg-zinc-100 rounded-lg shadow-xl shadow-slate-300
+           flex flex-col gap-4 items-start;
+    /* ⬆️ h-auto + padding + gap */
 }
 
-.two-fa-login-btn
-{
-    @apply  bg-blue-600 text-white text-[100%] h-[70%] w-[17%] px-3 py-2 
-    flex justify-center items-center rounded-lg cursor-pointer hover:opacity-90 transition-all duration-300
+.two-fa-login-btn {
+    @apply bg-blue-600 text-white text-sm md:text-base h-10 w-28 px-3 py-2 
+           flex justify-center items-center rounded-lg cursor-pointer hover:opacity-90 transition-all duration-300;
+    /* ⬆️ زر مناسب للموبايل */
 }
