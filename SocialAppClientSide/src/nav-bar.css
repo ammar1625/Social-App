@@ -1,186 +1,134 @@
 @import "tailwindcss";
 
-.nav-bar
-{
-    @apply w-[100%] h-[18%]  shadow-sm shadow-blue-200 rounded-lg relative
+@import "tailwindcss";
+
+/* Main Nav Bar */
+.nav-bar {
+  @apply w-full h-[12%] md:h-[18%] flex flex-col shadow-sm shadow-blue-200 rounded-lg relative bg-white;
 }
 
-.upper-side
-{
-    @apply flex justify-around items-center h-[70%] 
+/* Upper Side: User, Search, Logo */
+.upper-side {
+  @apply flex justify-between items-center px-4 md:px-6 lg:px-8 h-[70%] gap-4;
 }
 
-.connected-user-ctr
-{
-    @apply w-[11%] h-[60%] flex justify-around items-center 
+/* Connected User */
+.connected-user-ctr {
+  @apply flex items-center space-x-2 md:space-x-3 cursor-pointer flex-shrink-0;
 }
 
-.connected-user-img
-{
-    @apply w-[30%] rounded-full
+.connected-user-img {
+  @apply w-8 h-8 md:w-10 md:h-10 rounded-full object-cover;
 }
 
-.nav-bar-logo
-{
-    @apply w-[11%] rounded-xl 
+.connected-user-name {
+  @apply hidden md:block text-sm md:text-base font-medium text-gray-700;
 }
 
-.search-input
-{
-    @apply border-2 border-gray-500 w-[35%] h-[50%] rounded-xl outline-none px-6
+/* Search Input - Responsive Width */
+.search-input {
+  @apply flex-1 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg
+    h-10 px-4 rounded-xl border border-gray-300
+    focus:outline-none focus:ring-2 focus:ring-blue-500
+    text-gray-700 placeholder-gray-400 bg-white shadow-sm
+    transition-all duration-200;
 }
 
-.connected-user-name
-{
-    @apply text-[100%] font-medium 
+/* Logo */
+.nav-bar-logo {
+  @apply w-16 sm:w-18 md:w-24 lg:w-28 h-auto object-contain flex-shrink-0;
 }
 
-.down-side
-{
-    @apply  h-[30%] flex justify-end items-center pr-14 
+/* Down Side: Icons */
+.down-side {
+  @apply flex justify-end items-center px-4 md:px-6 lg:px-8 h-[30%];
 }
 
-.icons-ctr
-{
-    @apply  w-[27%] flex justify-around items-center h-[100%]
+.icons-ctr {
+  @apply flex space-x-3 md:space-x-6;
 }
 
-.icon-btn
-{
-    @apply p-1 cursor-pointer /* hover:bg-blue-500 transition-all duration-300 */ rounded-full
-    flex justify-center items-center
+.icon-btn {
+  @apply relative p-2 cursor-pointer hover:bg-blue-100 rounded-full flex justify-center items-center;
 }
 
-.notifications-count
-{
-    @apply bg-red-600 text-white px-2 py-1 rounded-full text-[60%] translate-x-[-30%] translate-y-[10%]
+.notifications-count,
+.invitations-count {
+  @apply absolute -top-1 -right-1 bg-red-600 text-white px-1.5 py-0.5 rounded-full text-[10px] font-bold;
 }
 
-.invitations-count
-{
-    @apply bg-red-600 text-white px-2 py-1 rounded-full text-[60%] translate-x-[-30%] translate-y-[10%]
+/* Dropdown Lists (Notifications & Invitations) */
+.notifications-list,
+.invitations-list {
+  @apply flex flex-col justify-center items-center absolute right-0  w-72 bg-white rounded-xl shadow-lg border border-gray-200 z-50 max-h-96 overflow-y-auto;
 }
 
-.found-users-list
-{
-    @apply  w-[20%] /* translate-x-[183%] translate-y-[-100%] */
-    bg-blue-50 rounded-xl  absolute top-[9%] left-[32%] max-h-[35%] 
-    overflow-y-scroll 
-}
-
-/*this part is for hiding the scroll bar*/
-.found-users-list::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
-  }
-  
-  .found-users-list {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-  }
-
-.found-user
-{
-    @apply flex justify-start items-center px-2 py-2 hover:bg-blue-100 transition-all duration-300
-    rounded-xl
-}
-
-.found-user-img
-{
-    @apply w-[15%] rounded-full mr-4
-}
-
-.found-user-name
-{
-    @apply text-[100%] font-medium
-}
-
-.notifications-list
-{
-    @apply w-[22%]  bg-blue-50 rounded-xl  absolute top-[18%] left-[58%] max-h-[35%] min-h-[10%]
-    overflow-y-scroll transition-all duration-300 flex flex-col justify-center items-center text-zinc-700
-}
-
-/*this part is for hiding the scroll bar*/
-.notifications-list::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
-  }
-  
-  .notifications-list {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-  }
-
-.notification
-{
-    @apply flex justify-start items-center px-1 py-2 cursor-pointer hover:bg-blue-100
-    rounded-xl transition-all duration-300
-}
-
-.notification-user-img
-{
-    @apply w-[12%] rounded-full mr-3
-}
-
-.notification-text
-{
-    @apply text-[80%]
-}
-
-.invitations-list
-{
-    @apply w-[15%]  absolute top-[18%] left-[84%]  rounded-xl px-1 py-2 bg-gray-50
-    max-h-[35%] overflow-y-scroll  transition-all duration-300 min-h-[10%] flex flex-col justify-center items-center
-    text-zinc-700
-}
-
-/*this part is for hiding the scroll bar*/
+.notifications-list::-webkit-scrollbar,
 .invitations-list::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
-  }
+  display: none;
+}
+
+.notifications-list {
+  @apply right-16 md:right-28;
+}
+
+.invitations-list {
+  @apply right-4;
+}
+
+/* Found Users List (Search Results) */
+.found-users-list {
+  @apply absolute left-1/2 transform -translate-x-1/2 mt-1 bg-white rounded-xl shadow-md border border-gray-200 w-[90%] sm:w-[60%] md:w-[35%] max-h-80 overflow-y-auto z-50;
+}
+
+.found-users-list::-webkit-scrollbar { display: none; }
+.found-users-list { -ms-overflow-style: none; scrollbar-width: none; }
+
+.found-user {
+  @apply flex items-center gap-3 px-3 py-2 hover:bg-blue-50 cursor-pointer transition-all duration-200;
+}
+
+.found-user-img {
+  @apply w-8 h-8 rounded-full object-cover;
+}
+
+.found-user-name {
+  @apply text-sm md:text-base text-gray-700 font-medium;
+}
+
+/* Notification & Invitation Items */
+.notification,
+.invitation {
+  @apply flex items-center gap-3 px-3 py-2 hover:bg-gray-50 cursor-pointer transition-colors duration-200;
+}
+
+.notification-user-img,
+.invitation-pic {
+  @apply w-8 h-8 rounded-full object-cover;
+}
+
+.sender {
+  @apply flex justify-between items-center w-full;
+}
+
+.sender-name {
+  @apply text-sm md:text-base text-gray-700 truncate;
+}
+
+.invitations-buttons-ctr {
+  @apply flex space-x-2 mt-1 w-full;
+}
+
+.invitation-btn {
+  @apply flex-1 py-1.5 text-xs md:text-sm rounded-lg font-medium transition-all duration-200;
+}
+
+.accept {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.reject {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300;
+}
   
-  .invitations-list {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-  }
-
-.invitation
-{
-    @apply bg-zinc-50 px-1 py-1.5
-}
-
-.sender
-{
-    @apply flex justify-start items-center
-}
-
-.sender-name
-{
-    @apply text-[90%] font-medium
-}
-
-.invitation-pic
-{
-    @apply w-[18%] rounded-full mr-2
-}
-
-.invitations-buttons-ctr
-{
-    @apply flex justify-center items-center px-2 py-2
-}
-
-.invitation-btn
-{
-    @apply w-[40%]  rounded-xl 
-    hover:opacity-80 cursor-pointer transition-all duration-300 text-[90%] font-medium 
-    px-1 py-1
-}
-
-.accept
-{
-    @apply bg-blue-600 text-white mr-1.5
-}
-
-.reject
-{
-    @apply bg-gray-200 text-gray-600
-}
+  

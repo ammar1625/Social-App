@@ -39,6 +39,7 @@ import { useGetConversationByMembers } from "../hooks/useGetConversationByMember
 import { useAddNewConversation } from "../hooks/useAddNewConversation";
 import { useAddNewConversationMember } from "../hooks/useAddNewConversationMember";
 import { useCurrentConversationIdStore } from "../stores/useCurrentConversationIdStore";
+import NavigationSetter from "../components/NavigationSetter";
 //import { useInvitationsStore } from "../stores/useInvitationsStore";
 function UserProfile()
 {
@@ -256,6 +257,7 @@ function UserProfile()
       
          
     return <div className="profile-ctr">
+            <NavigationSetter/>
          {/*this is overlay*/}
          <div ref={overlayref} className="overlay">
                     

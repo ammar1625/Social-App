@@ -25,6 +25,7 @@ import { useAddNotification } from "../hooks/useAddNewNotification";
 import { useAddNewLike } from "../hooks/useAddNewLike";
 import { useDeleteLike } from "../hooks/useDeleteLike";
 import { useChangeProfilePic } from "../hooks/useChangeProfilePic";
+import NavigationSetter from "../components/NavigationSetter";
 function CurrentUserProfile()
 {
     const queryClient = useQueryClient();
@@ -209,7 +210,7 @@ function CurrentUserProfile()
           });
       }
     return <div className="profile-ctr">
-
+            <NavigationSetter/>
            {/*this is overlay*/}
                  <div ref={overlayref} className="overlay">
                             

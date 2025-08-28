@@ -157,7 +157,7 @@ function NavBar()
 
     </nav>
 
-    <div className="found-users-list">
+    {usersData&&<div className="found-users-list">
      
 
         {usersData?.filter(u=>u.userId!==user.userId).map(u=> <NavLink onClick={()=>setUserId(u.userId)} key={u.userId} to="/user" className="found-user">
@@ -166,7 +166,7 @@ function NavBar()
         </NavLink>)}
 
        
-    </div>
+    </div>}
 
     <div  ref={notificationsRef}  className="notifications-list invisible" 
         onMouseOver={()=>displayElement(notificationsRef)}

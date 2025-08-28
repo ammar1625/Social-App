@@ -9,7 +9,7 @@ import {  useState } from "react";
 //import { useLogOut } from "../hooks/useLogOut";
 //import { userCurrentUserStore } from "../stores/useCurrentUserStore";
 import { useIsOverlayVisibleStore } from "../stores/useOverLayVisibleStore";
-import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
+import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisible";
 
 function HomePageSideBar()
 {

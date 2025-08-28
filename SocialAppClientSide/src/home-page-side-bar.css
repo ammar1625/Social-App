@@ -1,23 +1,77 @@
 @import "tailwindcss";
 
-.home-page-side-bar{
-    @apply  w-[20%] h-[100%] flex flex-col justify-start items-start pl-3 
+/* Mobile: Bottom Bar | Desktop: Left Sidebar */
+.home-page-side-bar {
+    @apply 
+      w-full 
+      sm:w-[20%] 
+      h-14 
+      sm:h-full 
+      bg-white
+      fixed 
+      sm:relative 
+      bottom-0 
+      left-0 
+      z-20
+      shadow-lg 
+      sm:shadow-none
+      flex 
+      sm:flex-col 
+      flex-row 
+      justify-around 
+      sm:justify-start
+      sm:pl-3
+      transition-all 
+      duration-300;
+  }
+
+/* Link: Mobile (icon-only) | Desktop (icon + text) */
+.nav-link {
+  @apply flex items-center justify-center sm:justify-start
+        w-full h-14 sm:h-[11%] px-4 sm:px-3
+        text-gray-700 font-medium
+        hover:bg-zinc-100
+        transition-all duration-300 ease-in-out
+        gap-2
+        relative;
 }
 
-.nav-link
-{
-    /* @apply w-[100%]  flex justify-start items-center hover:opacity-80 hover:bg-zinc-100 transition-all duration-500
-    h-[11%]  */
-
-    @apply w-full flex justify-start items-center h-[11%]
-    hover:opacity-80 hover:bg-zinc-100
-    transition-all duration-500 ease-in-out
-    
-    border-r border-transparent
-    ;
+/* Icon & Text Styling */
+.nav-link span {
+  @apply hidden sm:inline text-sm;
 }
 
-.selected
-{
-    @apply bg-zinc-100 border-r-2 border-blue-500
+.nav-link svg {
+  @apply text-gray-600;
 }
+
+/* Active Link: Blue Background + White Text & Icon */
+.nav-link.selected {
+  @apply bg-blue-600 text-white font-semibold;
+}
+
+.nav-link.selected svg {
+  @apply text-white;
+}
+
+/* Remove hover opacity when selected */
+.nav-link.selected:hover {
+  @apply bg-blue-600;
+}
+
+/* Responsive: Mobile = Bottom Row */
+@media (max-width: 767px) {
+  .home-page-side-bar {
+    @apply flex-row justify-around;
+  }
+
+  .nav-link {
+    @apply py-2;
+  }
+
+  .nav-link span {
+    @apply text-[10px] mt-1;
+  }
+}
+
+ /* Optional: Add padding to content so it doesn't hide behind bottom bar */

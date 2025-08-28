@@ -21,7 +21,7 @@ import { useCommentContentStore } from "../stores/useCommentContentStore";
 import { useQueryClient } from "@tanstack/react-query";
 import { useAddNotification } from "../hooks/useAddNewNotification";
 import { useNotificationsWebSocket } from "../hooks/useNotificationsWebsocket";
-import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisibleStore";
+import { useIsLogoutDialogVisibleStore } from "../stores/useIsLogOutDialogVisible";
 import { useLogOut } from "../hooks/useLogOut";
 import { useIsDisconnectingMessageVisible } from "../stores/useIsDisconnectingMessageVisible";
 

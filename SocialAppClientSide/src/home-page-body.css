@@ -1,6 +1,25 @@
 @import "tailwindcss";
 
-.home-page-body-ctr
+/* .home-page-body-ctr
 {
     @apply  flex justify-between items-center h-[82%] w-[100%]
-}
+} */
+
+/* Main Body: Sidebar + Outlet */
+.home-page-body-ctr {
+    @apply flex flex-col h-[calc(100vh-64px)] w-full;
+  }
+  
+  @media (min-width: 768px) {
+    .home-page-body-ctr {
+      @apply flex-row;
+    }
+  }
+
+  /* Add space at bottom on mobile so sidebar doesn't hide content */
+@media (max-width: 767px) {
+    .home-page-body-ctr {
+      @apply pb-16; /* Height of bottom bar */
+    }
+  }
+  
