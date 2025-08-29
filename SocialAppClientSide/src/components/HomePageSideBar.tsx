@@ -36,8 +36,8 @@ function HomePageSideBar()
 
         < NavLink className={({isActive})=>isActive && isHome?"nav-link selected":"nav-link"} to="" onClick={()=>setIsHome(true)}><GrHomeRounded size={28}/><span>  Home</span></ NavLink >
         < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="conversations" onClick={()=>setIsHome(false)}><SiTheconversation size={28}/><span>  Conversations</span></ NavLink >
-        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="update" onClick={()=>setIsHome(false)}><FaRegUser size={28}/><span>  Update Credentials</span></ NavLink >
-        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="changepassword" onClick={()=>setIsHome(false)}><CgPassword size={28}/><span>  Change Password</span></ NavLink >
+        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="update" onClick={()=>setIsHome(false)}><FaRegUser size={28}/><span>   Credentials</span></ NavLink >
+        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="changepassword" onClick={()=>setIsHome(false)}><CgPassword size={28}/><span>   Password</span></ NavLink >
        {/* < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="/"><TbLogout2 size={28}/><pre>  Logout</pre></ NavLink >*/}
         < button className="nav-link" onClick={()=>{
            // mutateLogOut(user.userId);
@@ -46,7 +46,7 @@ function HomePageSideBar()
         
            
         }}><TbLogout2 size={28}/><span>  Logout</span></ button >
-        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="close" onClick={()=>setIsHome(false)}><MdDeleteOutline size={28}/><span>  Close Account</span></NavLink>
+        < NavLink className={({isActive})=>isActive?"nav-link selected":"nav-link"} to="close" onClick={()=>setIsHome(false)}><MdDeleteOutline size={28}/><span>  Close </span></NavLink>
     </div>
 }
 

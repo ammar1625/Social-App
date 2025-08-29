@@ -13,7 +13,7 @@ export function useAddNewLike(queryClient:QueryClient , userId:string ,targetUse
         mutationFn:addNewLike,
         onMutate:(model:likeToAddModel)=>{
                 const {postId}  =model;
-
+                //for home page posts
                 if(type===1)
                 {
                      // Cancel any outgoing refetches for this query
@@ -38,7 +38,7 @@ export function useAddNewLike(queryClient:QueryClient , userId:string ,targetUse
 
                     return { previousPosts};
                 }
-
+                //for user profile posts
                  else if(type===2)
                 {
                     queryClient.cancelQueries({ queryKey: ["current-user-posts",targetUserId] });

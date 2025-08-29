@@ -1,154 +1,163 @@
 @import "tailwindcss";
 
-.conversations-ctr
-{
-    @apply border-1 h-[100%] w-[100%] flex justify-center items-center
+/* Main Container */
+.conversations-ctr {
+  @apply h-[100%] w-full flex bg-white overflow-hidden;
 }
 
-/*these are conversations members section styles*/
-.conversations-members-ctr
-{
-    @apply border-yellow-400 w-[21%] h-[100%] max-h-[100%] bg-blue-50 flex flex-col justify-start items-center
-    overflow-y-scroll
+/* Conversations List (Left) */
+.conversations-members-ctr {
+  @apply w-[21%] md:w-[18%] sm:w-[12%] h-full bg-blue-50
+        flex flex-col items-center
+        overflow-y-auto border-r border-gray-200
+        transition-all duration-200;
 }
 
-/*this part is for hiding the scroll bar*/
-.conversations-members-ctr::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+/* Hide Scrollbar */
+.conversations-members-ctr::-webkit-scrollbar { display: none; }
+.conversations-members-ctr { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Single Conversation Member */
+.conversation-member {
+  @apply w-full h-14 sm:h-12 flex items-center
+        px-3 sm:px-1.5
+        hover:bg-blue-100 cursor-pointer
+        transition-all duration-200 rounded-lg
+        relative ;
+}
+
+.conversation-member-img {
+  @apply w-10 h-10 sm:w-8 sm:h-8 rounded-full object-cover
+        mr-3 sm:mr-0;
+}
+
+.conversation-member-name {
+  @apply text-sm font-medium text-slate-800
+        hidden sm:block;
+}
+
+/* Conversations Right Side (Chat Window) */
+.conversations-right-side-ctr {
+  @apply w-[79%] md:w-[82%] md:h-[90%] sm:w-full h-full 
+        flex flex-col bg-white relative;
+}
+
+/* Header */
+.messages-part-header {
+  @apply w-full h-14 border-b border-gray-200
+        flex items-center px-4;
+}
+
+.current-conversation-member {
+  @apply flex items-center w-auto;
+}
+
+.current-conversation-member-img {
+  @apply w-10 h-10 rounded-full object-cover mx-2;
+}
+
+.current-conversation-member-name {
+  @apply text-sm font-medium text-slate-800;
+}
+
+/* Messages Container */
+.messages-part-ctr {
+  @apply w-full flex-1 overflow-y-auto p-3
+        flex flex-col gap-2;
+}
+
+.messages-part-ctr::-webkit-scrollbar { display: none; }
+.messages-part-ctr { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Message Bubble */
+.message-ctr {
+  @apply max-w-[80%] sm:max-w-[70%] w-fit flex flex-col gap-1
+        ml-auto items-end;
+}
+
+.incoming-msg-ctr {
+  @apply ml-0 mr-auto items-start;
+}
+
+.message {
+  @apply bg-blue-600 text-white rounded-xl px-4 py-2
+        text-sm max-w-full break-words;
+}
+
+.incoming-message {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.message-time {
+  @apply text-xs text-gray-500 mt-1;
+}
+
+.msg-img {
+  @apply mt-1 w-24 h-24 sm:w-20 sm:h-20 object-cover rounded-lg
+        max-w-[80%];
+}
+
+/* Send Message Section */
+.send-message-ctr {
+  @apply w-full h-16 px-4 flex items-center gap-2
+        border-t border-gray-200 bg-white
+        shrink-0;
+}
+
+/* Fixed-Height Scrollable Textarea */
+.send-input-field {
+  @apply flex-1 h-12 px-4 py-2 border border-gray-300 rounded-lg
+        text-sm text-slate-800 bg-white
+        focus:outline-none focus:ring-2 focus:ring-blue-500
+        resize-none overflow-y-auto scroll-smooth;
+}
+
+/* Hide Scrollbar */
+.send-input-field::-webkit-scrollbar {
+  display: none;
+}
+
+.send-input-field {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* File Input & Label */
+.msg-media-input {
+  @apply hidden;
+}
+
+.message-media-icon {
+  @apply p-2 bg-white border border-gray-300 rounded-full
+        hover:bg-gray-50 cursor-pointer flex-shrink-0;
+}
+
+.send-message-btn {
+  @apply p-2 hover:bg-blue-50 rounded-full cursor-pointer
+        transition-all duration-200 flex-shrink-0;
+}
+
+/* Media Preview */
+.msg-media-ctr {
+    @apply absolute bottom-20 right-4
+           h-24 w-32 rounded-lg border-2 border-gray-300
+           overflow-hidden bg-white 
+           flex justify-center items-center
+           shadow-md z-10;
   }
   
-  .conversations-members-ctr {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-  }
-
-.conversation-member
-{
-    @apply w-[100%] h-[12%]  flex justify-start items-center pl-[4%] cursor-pointer 
-    hover:bg-blue-100 transition-all duration-300 rounded-lg py-[2%]
-}
-
-.conversation-member-img
-{
-    @apply w-[19%] rounded-full mr-[5%]
-}
-
-.conversation-member-name
-{
-    @apply text-[100%] text-slate-800 font-medium
-}
-
-
-/*these are messages part styles*/
-.conversations-right-side-ctr
-{
-    @apply  border-blue-500 w-[79%] h-[100%] relative bg-white
-}
-
-.messages-part-header
-{
-    @apply  w-[100%] h-[10%] border-b-1 border-gray-200
-}
-
-.current-conversation-member
-{
-    @apply  border-blue-400 w-[25%] h-[100%] flex justify-start items-center 
-}
-
-.current-conversation-member-img
-{
-    @apply w-[18%] rounded-full mx-[3%]
-}
-
-.current-conversation-member-name
-{
-    @apply text-[100%] font-medium text-slate-800
-}
-
-.messages-part-ctr
-{
-    @apply w-[100%] h-[82%] flex flex-col justify-start items-center overflow-y-scroll
-}
-
-/*this part is for hiding the scroll bar*/
-.messages-part-ctr::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  /* Preview Image */
+  .msg-media-img {
+    @apply w-full h-full object-cover rounded-lg;
   }
   
-  .messages-part-ctr {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  /* Close Button (inside top-right of preview box) */
+  .msg-media-close-btn {
+    @apply absolute 
+           top-auto bottom-42 right-4   /* aligns with preview top-right */
+           bg-gray-600 text-white rounded-full
+           w-4 h-4 flex justify-center items-center
+            hover:bg-gray-700 cursor-pointer
+           transition-all duration-200
+           shadow-md z-20;
   }
-
-.message-ctr
-{
-    @apply flex flex-col justify-start items-end w-[100%] px-[0.5%] py-[0.5%] 
-}
-
-.incoming-msg-ctr
-{
-    @apply flex justify-start items-start
-}
-
-.message
-{
-    @apply bg-blue-600 px-[1.5%] py-[1%] rounded-xl text-white text-[80%] font-medium max-w-[35%]
-}
-
-.incoming-message
-{
-    @apply bg-purple-700
-}
-
-.message-time
-{
-    @apply text-[70%] text-gray-500 font-medium mt-[0.5%]
-}
-
-.msg-img
-{
-    @apply object-cover w-[25%]
-}
-
-.send-message-ctr
-{
-    @apply w-[100%] h-[8%] flex justify-between items-center pr-[1.5%]
-}
-
-.send-input-field
-{
-    @apply border-2 border-gray-300 rounded-lg w-[95%] h-[100%] px-[1%] text-[120%] text-slate-800 font-medium
-    outline-none focus:shadow-sm focus:shadow-blue-400
-}
-
-.msg-media-input
-{
-    @apply hidden
-}
-
-.message-media-icon
-{
-    @apply hover:cursor-pointer
-}
-
-.send-message-btn
-{
-    @apply cursor-pointer px-[0.5%] py-[0.5%]
-}
-
-.msg-media-ctr
-{
-    @apply absolute bottom-[10%] left-[75%] h-[20%] w-[16%] rounded-md border-2 
-}
-
-.msg-media-img
-{
-    @apply w-[100%] h-[100%] rounded-md 
-}
-
-.msg-media-close-btn
-{
-    @apply text-white text-[60%] bg-black rounded-full h-[3%] w-[2%]
-    flex justify-center items-center hover:cursor-pointer hover:opacity-80 transition-all duration-300
-     absolute bottom-[28%] left-[89%] z-50 
-}

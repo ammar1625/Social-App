@@ -25,7 +25,7 @@ import { NotificationProvider } from './contexts/NotificationsContext.tsx'
 import { userCurrentUserStore } from './stores/useCurrentUserStore.ts'
 
 
-const client = new QueryClient({
+const client = new QueryClient(/* {
   defaultOptions: {
     queries: {
       staleTime: 1000 * 60 * 5,     // 5 minutes
@@ -33,10 +33,10 @@ const client = new QueryClient({
       retry: false,                 // avoid retries when offline
     },
   },
-});
+} */);
 
 // Define IndexedDB persister
-const indexedDBPersister: Persister = {
+/* const indexedDBPersister: Persister = {
   persistClient: async (client: PersistedClient): Promise<void> => {
     await idbKeyval.set('react-query-offline-cache', client);
   },
@@ -46,10 +46,10 @@ const indexedDBPersister: Persister = {
   removeClient: async (): Promise<void> => {
     await idbKeyval.del('react-query-offline-cache');
   },
-};
+}; */
 
 // Persist the client to IndexedDB
-persistQueryClient({
+/* persistQueryClient({
   queryClient:client,
   persister: indexedDBPersister,
   maxAge: 1000 * 60 * 60 * 24, // 24 hours
@@ -65,7 +65,7 @@ persistQueryClient({
         return query.gcTime !== 0 && query.state.status === 'success'
       },
   },
-});
+}); */
 const userId = userCurrentUserStore.getState().user.userId;
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

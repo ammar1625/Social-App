@@ -1,10 +1,10 @@
 import ConversationsRightSide from "../components/ConversationsRightSide";
-import NavigationSetter from "../components/NavigationSetter";
+//import NavigationSetter from "../components/NavigationSetter";
 
 function Conversation()
 {
     return <div className="single-conversation">
-            <NavigationSetter/>
+            {/* <NavigationSetter/> */}
             <ConversationsRightSide/>
             </div> 
 }
