@@ -15,10 +15,17 @@
     @apply w-11/12 max-w-md rounded-lg bg-white p-6 shadow-xl absolute z-50 ; 
 }
 
-.log-out-dialog
-{
-    @apply top-[40%] left-[35%]
-}
+.log-out-dialog {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+          bg-white px-6 py-5 rounded-lg shadow-xl border border-gray-200
+          w-[90%] sm:w-[400px] max-w-sm
+          z-50;
+    /* 
+      - Perfect center: top-1/2 + left-1/2 + transform
+      - Responsive width: full width on mobile, ~400px on desktop
+      - Clean shadow and border
+    */
+  }
 
 .dialog-message
 {

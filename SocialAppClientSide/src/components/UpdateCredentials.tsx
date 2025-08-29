@@ -247,7 +247,7 @@ function UpdateCredentials()
                     </div>
     
                     <div className="gender-field-ctr">
-                        <p className="sub-title">gender</p>
+                        <p className="sub-title gender-sub-title">gender</p>
     
                         <div className="gender-ctr">
                             <p className="sub-title">Male</p>

@@ -46,6 +46,11 @@
     /* ⬆️ ارتفاع input ثابت (h-12) بدل % علشان يكون مناسب على كل الشاشات */
 }
 
+.invalid-input-field
+{
+    @apply border-1 border-red-300 bg-red-200 focus:shadow-sm focus:shadow-red-300
+}
+
 .btn {
     @apply text-base md:text-lg text-white font-medium h-12 w-full rounded-lg hover:opacity-80 transition-all duration-300
            cursor-pointer flex justify-center items-center;
