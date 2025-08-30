@@ -306,7 +306,7 @@ function UserProfile()
                                     mutateComment({
                                         content:commentContent?commentContent:"",
                                         postId:postId,
-                                        userId:userId
+                                        userId:user.userId
                                     });
 
                                     setTimeout(()=>{
