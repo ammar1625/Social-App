@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj": {}
+    "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj": {}
   },
   "projects": {
-    "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj": {
+    "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj",
+        "projectUniqueName": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj",
         "projectName": "SocialAppApi",
-        "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppApi\\obj\\",
+        "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppApi\\SocialAppApi.csproj",
+        "packagesPath": "C:\\Users\\ammar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj": {
-                "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj"
+              "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj"
               },
-              "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
-                "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj"
+              "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
+                "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -115,24 +115,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj": {
+    "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj",
         "projectName": "SocialAppBusinessLayer",
-        "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppBusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\SocialAppBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\ammar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppBusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -147,8 +147,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
-                "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj"
+              "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
+                "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj"
               }
             }
           }
@@ -163,7 +163,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -194,24 +194,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
+    "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj",
         "projectName": "SocialAppDataLayer",
-        "projectPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\SocialApp\\SocialAppServerSide\\SocialAppDataLayer\\obj\\",
+        "projectPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\SocialAppDataLayer.csproj",
+        "packagesPath": "C:\\Users\\ammar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammar\\Social-App\\SocialAppServerSide\\SocialAppDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -238,7 +238,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -283,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
